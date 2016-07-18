@@ -7,7 +7,7 @@
  * # screenshotSlider
  */
 angular.module('portfolioApp')
-	.directive('screenshotSlider', ['$translate', '$uibModal', function($translate, $uibModal) {
+	.directive('screenshotSlider', ['$translate', '$log', '$uibModal', function($translate, $uibModal, $log){
 	  return {
 	    restrict: 'A',
 	    scope: {

@@ -21,7 +21,6 @@ angular.module('portfolioApp')
 	    $translateProvider.fallbackLanguage('en');
 
 	    // Set up routes
-	  	$locationProvider.hashPrefix('!');
 	  	$routeProvider
 	      .when('/', {
 	        templateUrl: 'views/portfolio.html',
