@@ -38,5 +38,6 @@ angular.module('portfolioApp')
 	        redirectTo: '/'
 	      });
 
+	      // For production, turn off debugging
 	      $compileProvider.debugInfoEnabled(false);
 	  }]);

@@ -12424,6 +12424,7 @@ header blockquote {
 header .social-media-bar {
   margin: 0;
   float: right;
+  padding-top: 12px;
 }
 @media (max-width: 768px) {
   /* line 238, ../../app/styles/main.scss */
