@@ -224,12 +224,9 @@ nav{
 // Header
 header{
 	#profile-photo{
-		padding-top: 18px;
+		// padding-top: 6px;
 		height: 150px;
-		margin: 6px auto 0 auto;
-		header{
-		    padding-top: 6px;
-		}
+		margin: 6px auto 6px auto;
 	}
 
     blockquote{
@@ -241,6 +238,7 @@ header{
     .social-media-bar{
         margin: 0;
         float: right;
+        // margin-top: 6px;
 
         @media(max-width: $screen-sm-min){
             float: none;

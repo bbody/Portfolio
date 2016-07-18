@@ -12410,62 +12410,57 @@ nav .navbar-nav {
 
 /* line 226, ../../app/styles/main.scss */
 header #profile-photo {
-  padding-top: 18px;
   height: 150px;
-  margin: 6px auto 0 auto;
+  margin: 6px auto 6px auto;
 }
-/* line 230, ../../app/styles/main.scss */
-header #profile-photo header {
-  padding-top: 6px;
-}
-/* line 235, ../../app/styles/main.scss */
+/* line 232, ../../app/styles/main.scss */
 header blockquote {
   padding-bottom: 0;
   margin-bottom: 0;
   padding-top: 0;
   margin-top: 10px;
 }
-/* line 241, ../../app/styles/main.scss */
+/* line 238, ../../app/styles/main.scss */
 header .social-media-bar {
   margin: 0;
   float: right;
 }
 @media (max-width: 768px) {
-  /* line 241, ../../app/styles/main.scss */
+  /* line 238, ../../app/styles/main.scss */
   header .social-media-bar {
     float: none;
     margin-top: 6px;
     text-align: center;
   }
 }
-/* line 251, ../../app/styles/main.scss */
+/* line 249, ../../app/styles/main.scss */
 header .social-media-bar li {
   border-right: 0.2em #FDFDFD solid;
   padding: 0;
 }
-/* line 256, ../../app/styles/main.scss */
+/* line 254, ../../app/styles/main.scss */
 header .social-media-bar li:last-child {
   border-right: none;
 }
-/* line 260, ../../app/styles/main.scss */
+/* line 258, ../../app/styles/main.scss */
 header .social-media-bar .btn {
   border: 0;
   border-radius: 0;
   background-color: #2974b9;
   color: #FDFDFD;
 }
-/* line 266, ../../app/styles/main.scss */
+/* line 264, ../../app/styles/main.scss */
 header .social-media-bar .btn:focus, header .social-media-bar .btn:hover {
   background-color: #408ed5;
   color: #1b4d7a;
   border: none;
 }
-/* line 273, ../../app/styles/main.scss */
+/* line 271, ../../app/styles/main.scss */
 header .social-media-bar .button-bar {
   margin-bottom: 1px;
 }
 
-/* line 280, ../../app/styles/main.scss */
+/* line 278, ../../app/styles/main.scss */
 footer {
   background-color: #408ed5;
   margin-bottom: 0;
@@ -12473,19 +12468,21 @@ footer {
   color: #FDFDFD;
   padding-bottom: 1.5em;
 }
-/* line 287, ../../app/styles/main.scss */
+/* line 285, ../../app/styles/main.scss */
 footer h3 {
   text-align: left;
 }
-/* line 291, ../../app/styles/main.scss */
+/* line 289, ../../app/styles/main.scss */
 footer .devicon {
   font-size: 4em;
 }
-/* line 295, ../../app/styles/main.scss */
+/* line 293, ../../app/styles/main.scss */
 footer .built-with-item {
   border-left: 0.2em #FDFDFD solid;
 }
-/* line 299, ../../app/styles/main.scss */
+/* line 297, ../../app/styles/main.scss */
 footer .built-with-item:first-child {
   border-left: none;
 }
+
+/*# sourceMappingURL=main.css.map */

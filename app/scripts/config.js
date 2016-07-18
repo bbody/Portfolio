@@ -9,8 +9,8 @@
  */
 angular.module('portfolioApp')
 	.config(
-		['$locationProvider', '$routeProvider', '$translateProvider', 
-		function($locationProvider, $routeProvider, $translateProvider) {
+		['$compileProvider', '$locationProvider', '$routeProvider', '$translateProvider', 
+		function($compileProvider, $locationProvider, $routeProvider, $translateProvider) {
 	  	// Setup Translation Services
 	    $translateProvider.useStaticFilesLoader({
 	      	prefix: 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/locale/locale-',
@@ -37,4 +37,6 @@ angular.module('portfolioApp')
 	      .otherwise({
 	        redirectTo: '/'
 	      });
+
+	      $compileProvider.debugInfoEnabled(false);
 	  }]);
