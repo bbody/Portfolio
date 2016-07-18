@@ -1,6 +1,8 @@
 dist/
 .tmp/
 
+aws-keys.json
+
 ### Bower ###
 bower_components
 .bower-cache

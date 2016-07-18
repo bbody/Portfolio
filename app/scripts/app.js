@@ -18,5 +18,6 @@ angular
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'pascalprecht.translate'
+    'pascalprecht.translate',
+    'sticky'
   ]);
