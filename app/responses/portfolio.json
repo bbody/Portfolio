@@ -1,0 +1,97 @@
+{
+	"projects":[{
+		"stub": "coding_comps",
+		"title": "Coding Comps",
+		"description": "Directory for competitive coding competitions with tips and resources",
+		"url": "http://www.codingcomps.com/",
+		"github_url": "",
+		"screenshots":{
+			"mobile":[
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/home.png",
+					"description": "Tipping Point"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/about.png",
+					"description": "About"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/contests.png",
+					"description": "Contests"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog-post.png",
+					"description": "Blog Post"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog.png",
+					"description": "Blog"
+				}
+			],
+			"tablet":[
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/home.png",
+					"description": "DSFDS"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/about.png",
+					"description": "About"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/contests.png",
+					"description": "Contests"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog-post.png",
+					"description": "Blog Post"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog.png",
+					"description": "Blog"
+				}
+			],
+			"desktop":[
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/home.png",
+					"description": "Home Page"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/about.png",
+					"description": "About"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/contests.png",
+					"description": "Contests"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog-post.png",
+					"description": "Blog Post"
+				},
+				{
+					"url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog.png",
+					"description": "Blog"
+				}
+			]
+		},
+		"technologies":["Ruby on Rails","Web"]
+	},
+	{
+		"stub": "cmd_resume",
+		"title": "CMD Resume",
+		"description": "Web-based Command Line Resume",
+		"url": "http://www.brendonbody.com/CMD-Resume/brendon.html",
+		"github_url": "https://github.com/bbody/CMD-Resume",
+		"screenshots":{
+			"mobile":[],
+			"tablet":[],
+			"desktop":[
+				{
+					"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
+					"description": "Mock data user"
+				}
+			]
+		},
+		"technologies":["jQuery", "Web"]
+	}
+	]
+}

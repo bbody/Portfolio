@@ -1,1 +1,83 @@
-<p>This is the portfolio-item view.</p>
+<div class="container ng-cloak">
+    <div data-ng-if="hasItem" class="row">
+    	<div class="col-sm-12">
+    		<div class="row">
+    			<div class="col-xs-3 back">
+ 					<span>
+ 						<a data-ng-href="#!/">
+ 							<i class="fa fa-arrow-left" aria-hidden="true"></i> {{ 'GLOBAL.BACK' | translate }}
+ 						</a>
+					</span>
+		    	</div>
+		    	<div class="col-xs-9">
+		    		<h2 class="portfolio-title">{{portfolioItem.title}}</h2>
+		    	</div>
+    		</div>
+    		<div class="row">
+                <div class="col-sm-6" data-ng-if="screenshotTypes">
+                    <div class="row">
+                        <!-- {{screenshots}} -->
+                        <div data-screenshot-slider="" data-slides="screenshots"></div>
+                    </div>
+                    <div class="row slider-control" data-ng-if="screenshotTypes > 1">
+                        <ul class="list-inline slider-switch-bar">
+                            <li data-ng-if="screenshots.desktop.length > 0">
+                                <button class="btn" data-ng-click="selectScreenshotType('desktop')"
+                                data-ng-class="{'active': isCurrentScreenshotType('desktop')}">
+                                    <i class="fa fa-desktop fa-2x" aria-hidden="true"></i> 
+                                    <span
+                                        class="sr-only" data-translate="GLOBAL.DEVICES.DESKTOP"></span>
+                                </button>
+                            </li>
+                            <li data-ng-if="screenshots.tablet.length > 0">
+                                <button class="btn" data-ng-click="selectScreenshotType('tablet')"
+                                data-ng-class="{'active': isCurrentScreenshotType('tablet')}">
+                                    <i class="fa fa-tablet fa-2x" aria-hidden="true"></i>
+                                    <span 
+                                        class="sr-only"
+                                        data-translate="GLOBAL.DEVICES.TABLET"></span>
+                                </button>
+                            </li>
+                            <li data-ng-if="screenshots.mobile.length > 0">
+                                <button class="btn" data-ng-click="selectScreenshotType('mobile')"
+                                data-ng-class="{'active': isCurrentScreenshotType('mobile')}">
+                                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                                    <span 
+                                        class="sr-only" data-translate="GLOBAL.DEVICES.MOBILE"></span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-ng-class="screenshotTypes ? 'col-sm-5 col-sm-offset-1' : 'col-sm-12'">
+                    <h3 data-translate="PORTFOLIO.DESCRIPTION"></h3>
+                    <p>{{portfolioItem.description}}</p>
+                    <h3 data-translate="PORTFOLIO.TECHNOLOGIES"></h3>
+                    <ul class="links-list">
+                        <li data-ng-repeat="technology in portfolioItem.technologies">
+                            <span data-technology-item="{{technology}}"></span>
+                        </li>
+                    </ul>
+                    <h3 data-translate="PORTFOLIO.LINKS"></h3>
+                    <ul class="links-list">
+                        <li data-ng-if="portfolioItem.url">
+                            <span 
+                                data-link-item="Website" 
+                                data-href="{{portfolioItem.url}}"
+                                data-type="home"></span>
+                        </li>
+                        <li data-ng-if="portfolioItem.github_url">
+                            <span 
+                                data-link-item="Github Repository" data-href="{{portfolioItem.github_url}}"
+                                data-type="github"></span>
+                        </li>
+                    </ul>
+                    <!-- <p>{{portfolioItem.technologies}}</p> -->
+                </div>
+    		</div> 
+    	</div>
+    </div>
+    <div data-ng-if="!hasItem" class="row">
+        <h2 data-translate="GLOBAL.NOT_FOUND"></h2>
+    </div>
+</div>

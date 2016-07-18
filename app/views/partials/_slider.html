@@ -1,0 +1,10 @@
+<div data-uib-carousel="" active="active" interval="myInterval" no-wrap="noWrapSlides">
+  <div data-uib-slide ng-repeat="slide in selectedSlides track by $index" index="$index">
+  	<a data-ng-href="#" data-ng-click="openModal(selectedSlides, $index, $event)">
+	    <img data-ng-src="{{slide.url}}">
+	    <div class="carousel-caption">
+	      <h4>{{slide.description}}</h4>
+	    </div>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+{
+	"GLOBAL":{
+		"WEBSITE_TITLE": "{{name}}'s Portfolio",
+		"ALL_ITEMS": "All",
+		"NOT_FOUND": "Item not found",
+		"BACK": "Back",
+		"SKIP_MAIN_CONTENT": "Skip to main content",
+		"DEVICES": {
+			"MOBILE": "Mobile",
+			"TABLET": "Tablet",
+			"DESKTOP": "Desktop"	
+		}
+	},
+	"FOOTER":{
+		"BUILT_WITH": "Built with..."
+	},
+	"HEADER":{
+		"ABOUT":{
+			"TITLE": "About {{name}}",
+			"IMAGE": "Image of {{name}}",
+			"AT": " in ",
+			"LOCATION": "{{city}}, {{country}}"
+		},
+		"SOCIAL_MEDIA_PROFILE": " Profile"
+	},
+	"PORTFOLIO":{
+		"DESCRIPTION": "Description",
+		"TECHNOLOGIES": "Technologies",
+		"LINKS": "Links"
+	}
+}

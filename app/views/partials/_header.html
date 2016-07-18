@@ -1,0 +1,39 @@
+<header data-ng-controller="HeaderCtrl" class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <span class="h2" 
+                data-translate="HEADER.ABOUT.TITLE" 
+                data-translate-value-name="{{information.name}}" 
+                aria-describedby="title"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="hidden-xs col-sm-3">
+            <img id="profile-photo" 
+                data-ng-src="{{information.picture}}"
+                alt="{{ 'HEADER.ABOUT.IMAGE' | translate:{name: information.name} }}"
+                class="img-rounded img-responsive ng-cloak" />
+        </div>
+        <div class="col-xs-12 col-sm-9">
+            <span class="lead">
+                {{information.label}}
+                {{'HEADER.ABOUT.AT' | translate}}
+                <i class="location"
+                data-translate="HEADER.ABOUT.LOCATION" 
+                data-translate-values="{{location}}">
+                </i>
+            </span>
+            <blockquote>
+                {{information.summary}}
+            </blockquote>
+            <div class="social-media-bar">
+                <ul class="list-inline button-bar">
+                    <li 
+                        data-ng-repeat="profile in information.profiles" data-social-media-item="{{profile.network}}" data-href="{{profile.url}}">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</header>

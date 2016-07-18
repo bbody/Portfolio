@@ -1,0 +1,69 @@
+{
+  "basics": {
+    "name": "Brendon Body",
+    "label": "Passionate Software Engineer",
+    "picture": "https://s3.amazonaws.com/codingcompsapp/assets/profile_picture.jpg",
+    "email": "brendon.body@gmail.com",
+    "phone": "",
+    "website": "https://www.brendonbody.com",
+    "summary": "I am a software developer who loves to build whether it is through software or with my hands. I am interested in many areas of programming but particularly frontend web development. I am constantly upgrading my skills and always building projects in my spare time. Please feel free to contact me!",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Sydney",
+      "countryCode": "Australia",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "",
+        "url": "https://www.brendonbody.com/"
+      },
+      {
+        "network": "Email",
+        "username": "",
+        "url": "mailto:brendon.body@gmail.com"
+      },
+      {
+        "network": "Twitter",
+        "username": "",
+        "url": "https://twitter.com/dormeoes"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://au.linkedin.com/in/brendonbody"
+      },
+      {
+        "network": "Github",
+        "username": "bbody",
+        "url": "https://github.com/bbody/"
+      },
+      {
+        "network": "Bitbucket",
+        "username": "",
+        "url": "https://bitbucket.org/bbody"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "",
+        "url": "http://stackoverflow.com/users/1917542/dormeoes"
+      },
+      {
+        "network": "Hacker News",
+        "username": "",
+        "url": "https://news.ycombinator.com/user?id=bbody"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}

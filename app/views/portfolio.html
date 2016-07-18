@@ -1,1 +1,10 @@
-<p>This is the portfolio view.</p>
+<div data-ng-controller="PortfolioCtrl" class="container ng-cloak">
+    <!-- Projects Row -->
+    <div class="row">
+        <div data-ng-repeat="item in portfolioItems | filter:hasFilter"
+        	data-portfolio-card="item"
+        	data-filter="filter">
+    	</div>
+    </div>
+    <!-- /.row -->
+</div>

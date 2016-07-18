@@ -1,0 +1,17 @@
+{
+	"GLOBAL":{
+		"WEBSITE_TITLE": "{{name}}的组合",
+		"ALL_ITEMS": "所有"
+	},
+	"FOOTER":{
+		"BUILT_WITH": "造的工具。。。"
+	},
+	"HEADER":{
+		"ABOUT":{
+			"TITLE": "关于{{name}}",
+			"IMAGE": "{{name}}的照片",
+			"AT": "在",
+			"LOCATION": "{{country}}{{city}}"
+		}
+	}
+}

@@ -38,7 +38,7 @@ module.exports = function (grunt) {
         base: 'dist'
       },
       src: ['**']
-    }
+    },
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -211,7 +211,11 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         src: ['<%= yeoman.app %>/index.html'],
-        ignorePath:  /\.\.\//
+        ignorePath:  /\.\.\//,
+        exclude:[
+          'bower_components/bootstrap-sass-official/assets/javascripts',
+          'bower_components/jquery'
+        ]
       },
       test: {
         devDependencies: true,
@@ -496,6 +500,11 @@ module.exports = function (grunt) {
     'postcss',
     'connect:test',
     'karma'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'gh-pages'
   ]);
 
   grunt.registerTask('build', [
