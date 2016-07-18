@@ -13,7 +13,7 @@ angular.module('portfolioApp')
 		function($locationProvider, $routeProvider, $translateProvider) {
 	  	// Setup Translation Services
 	    $translateProvider.useStaticFilesLoader({
-	      	prefix: 'responses/locale/locale-',
+	      	prefix: 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/locale/locale-',
 	      	suffix: '.json'
 	  	});
 	  	$translateProvider.preferredLanguage('en');
