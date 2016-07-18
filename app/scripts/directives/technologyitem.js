@@ -25,7 +25,7 @@ angular.module('portfolioApp')
 	      	$scope.class = "devicon devicon-rails-plain";
 	      }
 
-	      $scope.link = "#!/technology/" + $scope.name;
+	      $scope.link = "#/technology/" + $scope.name;
 	    },
 	    templateUrl: "views/partials/_item.html"
 	  };
