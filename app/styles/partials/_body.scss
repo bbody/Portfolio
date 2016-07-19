@@ -1,0 +1,12 @@
+// Body
+body{
+    font-family: $font-stack;
+    color: $primary-colour;
+    background-color: $white-colour;
+    a, p{
+        color: $primary-colour;
+    }
+    blockquote{
+        color: $black-colour;
+    }
+}

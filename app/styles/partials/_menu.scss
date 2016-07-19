@@ -1,0 +1,70 @@
+// Navigation Menu
+nav{
+    background-color: $primary-colour;
+    
+    
+    .container{
+        margin-left: 12px;
+        margin-right: 12px;
+        
+    }
+
+    ul{
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    
+    // @media (min-width: @screen-md-min)){
+    //     .container{
+    //         width: 100%;
+    //     }
+    // }
+
+    #title{
+        color: $white-colour;
+        display: inline;
+        font-size: 25px;
+    }
+    ul{
+        li{
+            background-color: $primary-colour-light;
+            font-weight: bold;
+            border-right: $primary-colour 1px solid;
+            a{
+                color: $white-colour;
+                font-weight: bold;
+            }
+            min-width: 60px;
+            text-align: center;
+
+            &.active, &:focus, &:hover{
+                background-color: $white-colour;
+                a{
+                    color: $primary-colour-dark;    
+                }
+            }
+
+            &.active{
+                &:focus, &:hover{
+                    a{
+                        color: $black-colour;
+                    }
+                    background-color: $white-colour;
+                }
+            }
+        }
+
+        li:last-child{
+            border-right: none;
+        }
+    }
+
+    &.navbar{
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+    .navbar-nav {
+        float: right;
+    }
+}

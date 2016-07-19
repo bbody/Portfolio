@@ -12210,66 +12210,182 @@ button.close {
   clip: auto;
 }
 
-/* line 11, ../../app/styles/main.scss */
+/* line 3, ../../app/styles/partials/_header.scss */
+header #profile-photo {
+  height: 150px;
+  margin: 6px auto 6px auto;
+}
+/* line 9, ../../app/styles/partials/_header.scss */
+header blockquote {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 10px;
+}
+/* line 15, ../../app/styles/partials/_header.scss */
+header .social-media-bar {
+  margin: 0;
+  float: right;
+  padding-top: 12px;
+}
+@media (max-width: 768px) {
+  /* line 15, ../../app/styles/partials/_header.scss */
+  header .social-media-bar {
+    float: none;
+    margin-top: 6px;
+    text-align: center;
+  }
+}
+/* line 26, ../../app/styles/partials/_header.scss */
+header .social-media-bar li {
+  border-right: 0.2em #FDFDFD solid;
+  padding: 0;
+}
+/* line 31, ../../app/styles/partials/_header.scss */
+header .social-media-bar li:last-child {
+  border-right: none;
+}
+/* line 35, ../../app/styles/partials/_header.scss */
+header .social-media-bar .btn {
+  border: 0;
+  border-radius: 0;
+  background-color: #2974b9;
+  color: #FDFDFD;
+}
+/* line 41, ../../app/styles/partials/_header.scss */
+header .social-media-bar .btn:focus, header .social-media-bar .btn:hover {
+  background-color: #408ed5;
+  color: #1b4d7a;
+  border: none;
+}
+/* line 48, ../../app/styles/partials/_header.scss */
+header .social-media-bar .button-bar {
+  margin-bottom: 1px;
+}
+
+/* line 2, ../../app/styles/partials/_menu.scss */
+nav {
+  background-color: #2974b9;
+}
+/* line 6, ../../app/styles/partials/_menu.scss */
+nav .container {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+/* line 12, ../../app/styles/partials/_menu.scss */
+nav ul {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+/* line 23, ../../app/styles/partials/_menu.scss */
+nav #title {
+  color: #FDFDFD;
+  display: inline;
+  font-size: 25px;
+}
+/* line 29, ../../app/styles/partials/_menu.scss */
+nav ul li {
+  background-color: #408ed5;
+  font-weight: bold;
+  border-right: #2974b9 1px solid;
+  min-width: 60px;
+  text-align: center;
+}
+/* line 33, ../../app/styles/partials/_menu.scss */
+nav ul li a {
+  color: #FDFDFD;
+  font-weight: bold;
+}
+/* line 40, ../../app/styles/partials/_menu.scss */
+nav ul li.active, nav ul li:focus, nav ul li:hover {
+  background-color: #FDFDFD;
+}
+/* line 42, ../../app/styles/partials/_menu.scss */
+nav ul li.active a, nav ul li:focus a, nav ul li:hover a {
+  color: #1b4d7a;
+}
+/* line 48, ../../app/styles/partials/_menu.scss */
+nav ul li.active:focus, nav ul li.active:hover {
+  background-color: #FDFDFD;
+}
+/* line 49, ../../app/styles/partials/_menu.scss */
+nav ul li.active:focus a, nav ul li.active:hover a {
+  color: #1C1C1C;
+}
+/* line 57, ../../app/styles/partials/_menu.scss */
+nav ul li:last-child {
+  border-right: none;
+}
+/* line 62, ../../app/styles/partials/_menu.scss */
+nav.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+/* line 67, ../../app/styles/partials/_menu.scss */
+nav .navbar-nav {
+  float: right;
+}
+
+/* line 2, ../../app/styles/partials/_body.scss */
 body {
   font-family: "Ubuntu", Helvetica, sans-serif;
   color: #2974b9;
   background-color: #FDFDFD;
 }
-/* line 15, ../../app/styles/main.scss */
+/* line 6, ../../app/styles/partials/_body.scss */
 body a, body p {
   color: #2974b9;
 }
-/* line 18, ../../app/styles/main.scss */
+/* line 9, ../../app/styles/partials/_body.scss */
 body blockquote {
   color: #1C1C1C;
 }
 
-/* line 25, ../../app/styles/main.scss */
+/* line 2, ../../app/styles/partials/_portfolio.scss */
 main {
   padding-top: 18px;
   padding-bottom: 18px;
   background-image: url("../images/confectionary.png");
   min-height: 400px;
 }
-/* line 31, ../../app/styles/main.scss */
+/* line 8, ../../app/styles/partials/_portfolio.scss */
 main .card {
   background-color: #FDFDFD;
   margin-top: 10px;
   position: relative;
 }
-/* line 36, ../../app/styles/main.scss */
+/* line 13, ../../app/styles/partials/_portfolio.scss */
 main .card .card-content {
   padding: 10px;
 }
-/* line 40, ../../app/styles/main.scss */
+/* line 17, ../../app/styles/partials/_portfolio.scss */
 main .card .card-content .card-title, main .card .card-reveal .card-title {
   font-size: 24px;
   font-weight: 200;
 }
-/* line 45, ../../app/styles/main.scss */
+/* line 22, ../../app/styles/partials/_portfolio.scss */
 main .card .card-action {
   padding: 20px;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
 }
-/* line 48, ../../app/styles/main.scss */
+/* line 25, ../../app/styles/partials/_portfolio.scss */
 main .card .card-action a {
   font-size: 15px;
   color: #408ed5;
   text-transform: uppercase;
   margin-right: 20px;
 }
-/* line 56, ../../app/styles/main.scss */
+/* line 33, ../../app/styles/partials/_portfolio.scss */
 main .card .card-image {
   background-color: #d3d3d3;
   height: 300px;
 }
-/* line 59, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/partials/_portfolio.scss */
 main .card .card-image img {
   margin: 0 auto;
   transition: all 0.4s ease;
 }
-/* line 73, ../../app/styles/main.scss */
+/* line 50, ../../app/styles/partials/_portfolio.scss */
 main .card .card-reveal {
   padding: 20px;
   position: absolute;
@@ -12283,46 +12399,46 @@ main .card .card-reveal {
   z-index: 1;
   display: none;
 }
-/* line 85, ../../app/styles/main.scss */
+/* line 62, ../../app/styles/partials/_portfolio.scss */
 main .card .card-reveal p {
   color: rgba(0, 0, 0, 0.71);
   margin: 20px;
 }
-/* line 91, ../../app/styles/main.scss */
+/* line 68, ../../app/styles/partials/_portfolio.scss */
 main .card .card-image {
   overflow: hidden;
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 100, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/partials/_portfolio.scss */
 main .portfolio-item {
   margin-bottom: 25px;
 }
-/* line 104, ../../app/styles/main.scss */
+/* line 81, ../../app/styles/partials/_portfolio.scss */
 main .back {
   margin-top: 25px;
 }
-/* line 108, ../../app/styles/main.scss */
+/* line 85, ../../app/styles/partials/_portfolio.scss */
 main .item {
   max-height: 250px;
 }
-/* line 112, ../../app/styles/main.scss */
+/* line 89, ../../app/styles/partials/_portfolio.scss */
 main .links-list {
   list-style: none;
   padding-left: 12px;
 }
-/* line 117, ../../app/styles/main.scss */
+/* line 94, ../../app/styles/partials/_portfolio.scss */
 main .slider-control .slider-switch-bar {
   text-align: center;
   padding-top: 1px;
 }
-/* line 121, ../../app/styles/main.scss */
+/* line 98, ../../app/styles/partials/_portfolio.scss */
 main .slider-control .slider-switch-bar li {
   padding: 0;
   margin: 0;
 }
-/* line 124, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/partials/_portfolio.scss */
 main .slider-control .slider-switch-bar li button {
   border-radius: 0;
   border: none;
@@ -12333,135 +12449,19 @@ main .slider-control .slider-switch-bar li button {
   color: #FDFDFD;
   border: none;
 }
-/* line 134, ../../app/styles/main.scss */
+/* line 111, ../../app/styles/partials/_portfolio.scss */
 main .slider-control .slider-switch-bar li button.active, main .slider-control .slider-switch-bar li button:focus, main .slider-control .slider-switch-bar li button:hover {
   background-color: #FDFDFD;
   color: #1b4d7a;
   border: none;
 }
-/* line 141, ../../app/styles/main.scss */
+/* line 118, ../../app/styles/partials/_portfolio.scss */
 main .slider-control .slider-switch-bar li button.active:focus, main .slider-control .slider-switch-bar li button.active:hover {
   color: #1C1C1C;
   border: none;
 }
 
-/* line 153, ../../app/styles/main.scss */
-nav {
-  background-color: #2974b9;
-}
-/* line 157, ../../app/styles/main.scss */
-nav .container {
-  margin-left: 12px;
-  margin-right: 12px;
-}
-/* line 163, ../../app/styles/main.scss */
-nav ul {
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-/* line 174, ../../app/styles/main.scss */
-nav #title {
-  color: #FDFDFD;
-  display: inline;
-  font-size: 25px;
-}
-/* line 180, ../../app/styles/main.scss */
-nav ul li {
-  background-color: #408ed5;
-  font-weight: bold;
-  border-right: #2974b9 1px solid;
-  min-width: 60px;
-  text-align: center;
-}
-/* line 184, ../../app/styles/main.scss */
-nav ul li a {
-  color: #FDFDFD;
-  font-weight: bold;
-}
-/* line 191, ../../app/styles/main.scss */
-nav ul li.active, nav ul li:focus, nav ul li:hover {
-  background-color: #FDFDFD;
-}
-/* line 193, ../../app/styles/main.scss */
-nav ul li.active a, nav ul li:focus a, nav ul li:hover a {
-  color: #1b4d7a;
-}
-/* line 199, ../../app/styles/main.scss */
-nav ul li.active:focus, nav ul li.active:hover {
-  background-color: #FDFDFD;
-}
-/* line 200, ../../app/styles/main.scss */
-nav ul li.active:focus a, nav ul li.active:hover a {
-  color: #1C1C1C;
-}
-/* line 208, ../../app/styles/main.scss */
-nav ul li:last-child {
-  border-right: none;
-}
-/* line 213, ../../app/styles/main.scss */
-nav.navbar {
-  border-radius: 0;
-  margin-bottom: 0;
-}
-/* line 218, ../../app/styles/main.scss */
-nav .navbar-nav {
-  float: right;
-}
-
-/* line 226, ../../app/styles/main.scss */
-header #profile-photo {
-  height: 150px;
-  margin: 6px auto 6px auto;
-}
-/* line 232, ../../app/styles/main.scss */
-header blockquote {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  margin-top: 10px;
-}
-/* line 238, ../../app/styles/main.scss */
-header .social-media-bar {
-  margin: 0;
-  float: right;
-  padding-top: 12px;
-}
-@media (max-width: 768px) {
-  /* line 238, ../../app/styles/main.scss */
-  header .social-media-bar {
-    float: none;
-    margin-top: 6px;
-    text-align: center;
-  }
-}
-/* line 249, ../../app/styles/main.scss */
-header .social-media-bar li {
-  border-right: 0.2em #FDFDFD solid;
-  padding: 0;
-}
-/* line 254, ../../app/styles/main.scss */
-header .social-media-bar li:last-child {
-  border-right: none;
-}
-/* line 258, ../../app/styles/main.scss */
-header .social-media-bar .btn {
-  border: 0;
-  border-radius: 0;
-  background-color: #2974b9;
-  color: #FDFDFD;
-}
-/* line 264, ../../app/styles/main.scss */
-header .social-media-bar .btn:focus, header .social-media-bar .btn:hover {
-  background-color: #408ed5;
-  color: #1b4d7a;
-  border: none;
-}
-/* line 271, ../../app/styles/main.scss */
-header .social-media-bar .button-bar {
-  margin-bottom: 1px;
-}
-
-/* line 278, ../../app/styles/main.scss */
+/* line 2, ../../app/styles/partials/_footer.scss */
 footer {
   background-color: #408ed5;
   margin-bottom: 0;
@@ -12469,21 +12469,19 @@ footer {
   color: #FDFDFD;
   padding-bottom: 1.5em;
 }
-/* line 285, ../../app/styles/main.scss */
+/* line 9, ../../app/styles/partials/_footer.scss */
 footer h3 {
   text-align: left;
 }
-/* line 289, ../../app/styles/main.scss */
+/* line 13, ../../app/styles/partials/_footer.scss */
 footer .devicon {
   font-size: 4em;
 }
-/* line 293, ../../app/styles/main.scss */
+/* line 17, ../../app/styles/partials/_footer.scss */
 footer .built-with-item {
   border-left: 0.2em #FDFDFD solid;
 }
-/* line 297, ../../app/styles/main.scss */
+/* line 21, ../../app/styles/partials/_footer.scss */
 footer .built-with-item:first-child {
   border-left: none;
 }
-
-/*# sourceMappingURL=main.css.map */

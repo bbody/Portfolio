@@ -1,0 +1,52 @@
+// Header
+header{
+    #profile-photo{
+        // padding-top: 6px;
+        height: 150px;
+        margin: 6px auto 6px auto;
+    }
+
+    blockquote{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        margin-top: 10px;
+    }
+    .social-media-bar{
+        margin: 0;
+        float: right;
+        padding-top: 12px;
+
+        @media(max-width: $screen-sm-min){
+            float: none;
+            margin-top: 6px;
+            text-align: center;
+        }
+
+        li{
+            border-right: $border-width $white-colour solid;
+            padding: 0;
+        }
+
+        li:last-child{
+            border-right: none;
+        }
+
+        .btn{
+            border: 0;
+            border-radius: 0;
+            background-color: $primary-colour;
+            color: $white-colour;
+
+            &:focus, &:hover{
+                background-color: $primary-colour-light;
+                color: $primary-colour-dark;
+                border: none;
+            }
+        }
+
+        .button-bar{
+            margin-bottom: 1px;
+        }
+    }
+}
