@@ -12328,7 +12328,7 @@ nav .navbar-nav {
 
 /* line 2, ../../app/styles/partials/_body.scss */
 body {
-  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-family: sans-serif, Helvetica;
   color: #2974b9;
   background-color: #FDFDFD;
 }
@@ -12485,3 +12485,5 @@ footer .built-with-item {
 footer .built-with-item:first-child {
   border-left: none;
 }
+
+/*# sourceMappingURL=main.css.map */
