@@ -5,10 +5,11 @@
 		"NOT_FOUND": "Item not found",
 		"BACK": "Back",
 		"SKIP_MAIN_CONTENT": "Skip to main content",
+		"TOGGLE_NAVIGATION": "Toggle navigation",
 		"DEVICES": {
 			"MOBILE": "Mobile",
 			"TABLET": "Tablet",
-			"DESKTOP": "Desktop"	
+			"DESKTOP": "Desktop"
 		}
 	},
 	"FOOTER":{

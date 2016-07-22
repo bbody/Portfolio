@@ -19,13 +19,25 @@ nav{
     //         width: 100%;
     //     }
     // }
+    .navbar-toggle{
+        background-color: $white-colour;
+        .icon-bar{
+            background-color: $primary-colour-dark;
+            color: $primary-colour-dark;
+        }
+    }
 
     #title{
         color: $white-colour;
         display: inline;
         font-size: 25px;
     }
-    ul{
+    ul#menu-items{
+        @media(max-width: $screen-sm-min){
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
         li{
             background-color: $primary-colour-light;
             font-weight: bold;
