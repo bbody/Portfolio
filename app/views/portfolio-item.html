@@ -17,7 +17,10 @@
                 <div class="col-sm-6" data-ng-if="screenshotTypes">
                     <div class="row">
                         <!-- {{screenshots}} -->
-                        <div data-screenshot-slider="" data-slides="screenshots"></div>
+                        <div data-screenshot-slider="" 
+                            data-slides="screenshots" 
+                            data-modal="true"
+                            data-name="{{portfolioItem.title}}"></div>
                     </div>
                     <div class="row slider-control" data-ng-if="screenshotTypes > 1">
                         <ul class="list-inline slider-switch-bar">
@@ -60,19 +63,13 @@
                     </ul>
                     <h3 data-translate="PORTFOLIO.LINKS"></h3>
                     <ul class="links-list">
-                        <li data-ng-if="portfolioItem.url">
+                        <li data-ng-repeat="profile in portfolioItem.profiles">
                             <span 
-                                data-link-item="Website" 
-                                data-href="{{portfolioItem.url}}"
-                                data-type="home"></span>
-                        </li>
-                        <li data-ng-if="portfolioItem.github_url">
-                            <span 
-                                data-link-item="Github Repository" data-href="{{portfolioItem.github_url}}"
-                                data-type="github"></span>
+                                data-link-item="{{profile.network}}" 
+                                data-href="{{profile.url}}"
+                                data-type="{{profile.network.toLowerCase()}}"></span>
                         </li>
                     </ul>
-                    <!-- <p>{{portfolioItem.technologies}}</p> -->
                 </div>
     		</div> 
     	</div>

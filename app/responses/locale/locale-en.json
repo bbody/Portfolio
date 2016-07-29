@@ -28,5 +28,9 @@
 		"DESCRIPTION": "Description",
 		"TECHNOLOGIES": "Technologies",
 		"LINKS": "Links"
+	},
+	"MODAL":{
+		"TITLE": "{{itemTitle}} Screenshots",
+		"DONE": "Close"
 	}
 }
