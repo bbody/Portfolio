@@ -15,7 +15,7 @@ angular.module('portfolioApp')
 		        document.title = project ? project + ' - ' + title : title;
 		      });
 		    }
-    }
+    };
     return functions;
   });
 

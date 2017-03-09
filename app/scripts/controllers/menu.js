@@ -25,10 +25,10 @@ angular.module('portfolioApp')
 		});
 
 		$scope.isDefaultPage = function(){
-			return $location.path() == "/";
+			return $location.path() === "/";
 		};
 
 		$scope.isCurrentTechnology = function(filter){
-			return $location.path() == "/technology/" + filter;
+			return $location.path() === "/technology/" + filter;
 		};
 	}]);

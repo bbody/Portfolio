@@ -23,10 +23,10 @@ angular.module('portfolioApp')
 				$scope.iconClass = "fa-at";
 			}
 	    },
-	    template: ""
-			+ "<a href=\"{{link}}\" class=\"btn btn-default\" alt=\"{{network}}\">\n"
-			+ "	<i class=\"fa {{iconClass}}\"></i>"
-			+ "	<span class=\"sr-only\">{{network}}{{'' | translate}}</span>\n"
-			+ "</a>\n"
+	    template: "" +
+	    	"<a href=\"{{link}}\" class=\"btn btn-default\" alt=\"{{network}}\">\n" +
+	    	"	<i class=\"fa {{iconClass}}\"></i>" +
+	    	"	<span class=\"sr-only\">{{network}}{{'' | translate}}</span>\n" +
+	    	"</a>\n"
 	  };
 	});

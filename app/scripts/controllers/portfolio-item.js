@@ -21,11 +21,11 @@ angular.module('portfolioApp')
 
 		$scope.selectScreenshotType = function(type){
 			$scope.screenshots.selected = type;
-		}
+		};
 
 		$scope.isCurrentScreenshotType = function(type){
-			return $scope.screenshots.selected == type;
-		}
+			return $scope.screenshots.selected === type;
+		};
 
 		$scope.multipleScreenshotTypes = function(){
 			var types = 0;

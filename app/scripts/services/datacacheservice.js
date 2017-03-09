@@ -22,9 +22,9 @@ angular.module('portfolioApp')
             },
             getPortfolioItem: function(projectId){
                 var portfolioItem = null;
-                var portfolio = cache['portfolio'].projects;
+                var portfolio = cache.portfolio.projects;
                 angular.forEach(portfolio, function(value, key){
-                    if (value.stub == projectId){
+                    if (value.stub === projectId){
                         portfolioItem = portfolio[key];
                     }
                 });
@@ -42,7 +42,7 @@ angular.module('portfolioApp')
                 } else {
                     $http.get(endPoints[type]).then(function(data){
                         cache[type] = data.data;
-                        deferred.resolve(cache[type])
+                        deferred.resolve(cache[type]);
                     });
                 }
                 return deferred.promise;

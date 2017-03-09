@@ -16,7 +16,7 @@ angular.module('portfolioApp')
 	      name: '@'
 	    },
 	    link: function($scope){
-	    	$scope.hasModal = $scope.modal == true;
+	    	$scope.hasModal = $scope.modal === true;
 	      $scope.selectedSlides = $scope.slides[$scope.slides.selected];
 	      var modalInstance = {};
 	      $scope.openModal = function(selectedSlides, index, $event){

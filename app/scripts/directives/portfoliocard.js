@@ -20,7 +20,7 @@ angular.module('portfolioApp')
 	      $scope.technologies = $scope.item.technologies;
 
 	      $translate("GLOBAL.ALL_ITEMS").then(function(allItems){
-	        $scope.display = !$scope.filter || ($scope.filter == allItems || $scope.technologies.indexOf($scope.filter) >= 0) ? true : false;
+	        $scope.display = !$scope.filter || ($scope.filter === allItems || $scope.technologies.indexOf($scope.filter) >= 0) ? true : false;
 	      });
 	      
 	    },
