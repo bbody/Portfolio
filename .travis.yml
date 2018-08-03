@@ -6,6 +6,8 @@ sudo: required
 before_script:
 - npm install
 - npm install -g bower
+- npm install -g grunt
+- npm install -g grunt-cli
 - bower install
 cache:
   directories:
