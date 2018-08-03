@@ -20,6 +20,7 @@ angular.module('portfolioApp')
 	  	$translateProvider.preferredLanguage('en');
 	    $translateProvider.useSanitizeValueStrategy('escape');
 	    $translateProvider.fallbackLanguage('en');
+	    $locationProvider.hashPrefix('');
 
 	    // Set up routes
 	  	$routeProvider
