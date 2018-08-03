@@ -29,5 +29,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   fqdn: portfolio.bbody.io
+  local-dir: dist
   on:
     branch: master
