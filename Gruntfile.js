@@ -20,8 +20,6 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-gh-pages');
-  // grunt.loadNpmTasks('grunt-s3');
-  grunt.loadNpmTasks('grunt-aws');
 
   // Configurable paths for the application
   var appConfig = {
@@ -41,22 +39,6 @@ module.exports = function (grunt) {
       },
       src: ['**']
     },
-    aws: grunt.file.readJSON("aws-keys.json"),
-    s3: {
-      options: {
-        accessKeyId: "<%= aws.accessKeyId %>",
-        secretAccessKey: "<%= aws.secretAccessKey %>",
-        bucket: "bbody",
-        region: "ap-southeast-2",
-        overwrite: true
-      },
-      build: {
-        cwd: "app/responses/",
-        src: "**",
-        dest: "Details/"
-      }
-    },
-
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
