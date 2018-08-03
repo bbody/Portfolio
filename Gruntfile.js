@@ -19,8 +19,6 @@ module.exports = function (grunt) {
     cdnify: 'grunt-google-cdn'
   });
 
-  grunt.loadNpmTasks('grunt-gh-pages');
-
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -32,13 +30,6 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-
-    'gh-pages': {
-      options: {
-        base: 'dist'
-      },
-      src: ['**']
-    },
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -516,9 +507,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('deploy', [
-    'build',
-    'gh-pages',
-    's3'
+    'build'
   ]);
 
   grunt.registerTask('build', [
