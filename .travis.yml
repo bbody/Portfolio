@@ -4,6 +4,7 @@ node_js:
 dist: trusty
 sudo: required
 before_script:
+- gem install compass
 - npm install
 - npm install -g bower
 - npm install -g grunt
