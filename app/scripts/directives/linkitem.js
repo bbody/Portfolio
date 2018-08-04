@@ -17,11 +17,11 @@ angular.module('portfolioApp')
 	    },
 	    link: function($scope){
 	      var key = $scope.type.replace(/ /g, '_').toLowerCase();
-	      $scope.class = "fa fa-home";
-	      if(["github", "twitter"].indexOf(key) > -1){
-	        $scope.class = "fa fa-" + key;
+	      $scope.class = 'fa fa-home';
+	      if(['github', 'twitter'].indexOf(key) > -1){
+	        $scope.class = 'fa fa-' + key;
 	      }
 	    },
-	    templateUrl: "views/partials/_item.html"
+	    templateUrl: 'views/partials/_item.html'
 	  };
 	});

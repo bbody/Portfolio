@@ -12,7 +12,7 @@ angular.module('portfolioApp')
 		['$scope', '$log', '$location', '$document', '$rootScope', '$routeParams', 'endPoints', 'titleService', 'dataCacheService', 'filterProperty', 
 		function($scope, $log, $location, $document, $rootScope, $routeParams, endPoints, titleService, dataCacheService, filterProperty){
 
-		$scope.filter = "";
+		$scope.filter = '';
 		$scope.portfolioItems = [];
 		
 		if ($routeParams.technology){

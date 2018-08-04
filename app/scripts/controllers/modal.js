@@ -12,8 +12,6 @@ angular.module('portfolioApp')
   	function ($scope, $translate, $uibModalInstance, slides, name) {
   	$scope.slides = slides;
   	$scope.name = name;
-  	console.log(name);
-  	// console.log(slides);
 	$scope.ok = function () {
 		$uibModalInstance.close('cancel');
 	};

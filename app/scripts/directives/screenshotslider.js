@@ -52,6 +52,6 @@ angular.module('portfolioApp')
 	    		$scope.selectedSlides = $scope.slides[$scope.slides.selected];
 	    	});
 	    },
-	    templateUrl: "views/partials/_slider.html"
+	    templateUrl: 'views/partials/_slider.html'
 	  };
 	}]);

@@ -11,8 +11,7 @@ angular.module('portfolioApp')
 	.controller('PortfolioItemCtrl', 
 		['$scope', '$routeParams', '$translate', 'endPoints', 'titleService', 'dataCacheService', 
 		function($scope, $routeParams, $translate, endPoints, titleService, dataCacheService) {
-		// console.log(technologyItem);
-		$scope.name = "";
+		$scope.name = '';
 		
 		$scope.portfolioItem = {};
 		$scope.screenshotTypes = 0;
@@ -48,7 +47,7 @@ angular.module('portfolioApp')
 			return types;
 		};
 
-		dataCacheService.getPortfolio().then(function(data){
+		dataCacheService.getPortfolio().then(function(){
 			$scope.portfolioItem = dataCacheService.getPortfolioItem($routeParams.item);
 			$scope.screenshots = $scope.portfolioItem.screenshots;
 			$scope.screenshots.selected = '';
@@ -59,7 +58,7 @@ angular.module('portfolioApp')
 					titleService.updateTitle(data.basics.name, $scope.portfolioItem.title);
 					$scope.screenshotTypes = $scope.multipleScreenshotTypes();
 				} else {
-					$translate("GLOBAL.NOT_FOUND").then(function(notFound){
+					$translate('GLOBAL.NOT_FOUND').then(function(notFound){
 						titleService.updateTitle(data.basics.name, notFound);
 					});
 				}

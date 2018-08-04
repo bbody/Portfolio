@@ -12,7 +12,7 @@ angular.module('portfolioApp')
 		['$scope', '$rootScope', '$log', 'endPoints', 'dataCacheService', '$location',
 		function($scope, $rootScope, $log, endPoints, dataCacheService, $location){
 		
-		$scope.name = "";
+		$scope.name = '';
 		
 		dataCacheService.getInformation().then(function(data){
 			$scope.name = data.basics.name;
@@ -25,10 +25,10 @@ angular.module('portfolioApp')
 		});
 
 		$scope.isDefaultPage = function(){
-			return $location.path() === "/";
+			return $location.path() === '/';
 		};
 
 		$scope.isCurrentTechnology = function(filter){
-			return $location.path() === "/technology/" + filter;
+			return $location.path() === '/technology/' + filter;
 		};
 	}]);
