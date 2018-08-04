@@ -506,10 +506,6 @@ module.exports = function (grunt) {
     'karma'
   ]);
 
-  grunt.registerTask('deploy', [
-    'build'
-  ]);
-
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
@@ -526,6 +522,11 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin'
+  ]);
+
+  grunt.registerTask('lint', [
+    'newer:jshint',
+    'newer:jscs'
   ]);
 
   grunt.registerTask('default', [
