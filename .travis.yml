@@ -32,3 +32,11 @@ deploy:
   local-dir: dist
   on:
     branch: master
+- provider: s3
+  access_key_id: $AWSAccessKeyId
+  secret_access_key: $AWSSecretKey
+  skip_cleanup: true
+  local_dir: app/responses
+  upload-dir: Details
+  region: ap-southeast-2
+  bucket: bbody
