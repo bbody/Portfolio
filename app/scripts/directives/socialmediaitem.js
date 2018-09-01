@@ -25,7 +25,7 @@ angular.module('portfolioApp')
 	    },
 	    template: '' +
 			'<a href="{{link}}" class="btn btn-default" alt="{{network}}">' +
-			'	<i class="fa {{iconClass}}"></i>' +
+			'	<i class="fa {{iconClass}}" aria-hidden="true"></i>' +
 			'	<span class="sr-only">{{network}}{{\'\' | translate}}</span>' +
 			'</a>'
 	  };

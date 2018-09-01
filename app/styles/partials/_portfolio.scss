@@ -33,7 +33,12 @@ main{
         .card-image{
             background-color: $grey-colour;
             height: 300px;
+            position: relative;
             img{
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                transform: translateY(-50%);
                 margin: 0 auto;
                 -webkit-transition: all 0.4s ease;
                 -moz-transition: all 0.4s ease;

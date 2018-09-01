@@ -33,7 +33,8 @@ module.exports = function (grunt) {
     // Project settings
     yeoman: appConfig,
 
-    // Watches files for changes and runs tasks based on the changed files
+    // Watches files for changes and runs tasks based on the changed fil
+
     watch: {
       bower: {
         files: ['bower.json'],
