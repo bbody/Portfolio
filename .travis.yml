@@ -4,6 +4,7 @@ node_js:
 dist: trusty
 sudo: required
 before_script:
+- npm config set registry https://registry.npmjs.org/
 - gem install compass
 - npm install
 - npm install -g bower
