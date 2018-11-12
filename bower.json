@@ -16,7 +16,7 @@
     "angular-translate": "^2.11.0",
     "angular-translate-loader-url": "^2.11.0",
     "angular-translate-loader-static-files": "^2.11.0",
-    "components-font-awesome": "^4.6.3",
+    "components-font-awesome": "^5.0.6",
     "ngSticky": "^1.8.12"
   },
   "devDependencies": {
@@ -29,6 +29,12 @@
       "main": [
         "less/bootstrap.less",
         "dist/css/bootstrap.css"
+      ]
+    },
+    "components-font-awesome": {
+      "main": [
+        "css/fontawesome.min.css",
+        "scss/fontawesome.scss"
       ]
     }
   }
