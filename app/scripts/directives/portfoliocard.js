@@ -19,10 +19,10 @@ angular.module('portfolioApp')
 	      $scope.imageUrl = $scope.item.screenshots.desktop[0].url;
 	      $scope.technologies = $scope.item.technologies;
 	      
-	      $scope.style = "";
+	      $scope.style = '';
 
-	      if ($scope.item.screenshots.desktop[0].color_primary){
-	      	$scope.style = "background-color: " + $scope.item.screenshots.desktop[0].color_primary;
+	      if ($scope.item.screenshots.desktop[0].colorPrimary){
+	      	$scope.style = 'background-color: ' + $scope.item.screenshots.desktop[0].colorPrimary;
 	      }
 
 	      $translate('GLOBAL.ALL_ITEMS').then(function(allItems){

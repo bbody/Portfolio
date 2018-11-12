@@ -62,7 +62,7 @@
 					{
 						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
 						"description": "Mock data user",
-						"color_primary": "black"
+						"colorPrimary": "black"
 					}
 				]
 			},
@@ -91,12 +91,12 @@
 					{
 						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/MultilineJavaScriptConverter/input.png",
 						"description": "Input",
-						"color_primary": "white"
+						"colorPrimary": "white"
 					},
 					{
 						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/MultilineJavaScriptConverter/output.png",
 						"description": "Output",
-						"color_primary": "white"
+						"colorPrimary": "white"
 					}
 				]
 			},
