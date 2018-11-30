@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Brendon Body",
-    "label": "Software Engineer",
+    "label": "Software Engineering",
     "picture": "https://s3.amazonaws.com/codingcompsapp/assets/profile_picture.jpg",
-    "email": "brendon.body@gmail.com",
+    "email": "bbody.project@gmail.com",
     "phone": "",
     "website": "https://www.brendonbody.com",
     "summary": "I am a software developer who loves to build whether it is through software or with my hands. I am interested in many areas of programming but particularly frontend web development. I am constantly upgrading my skills and always building projects in my spare time.",
@@ -23,7 +23,7 @@
       {
         "network": "Email",
         "username": "",
-        "url": "mailto:brendon.body@gmail.com"
+        "url": "mailto:bbody.project@gmail.com"
       },
       {
         "network": "Twitter",
@@ -57,13 +57,50 @@
       }
     ]
   },
-  "work": [],
-  "volunteer": [],
+  "work": [
+    {
+      "company": "Hanes Brands",
+      "position": "Frontend Developer",
+      "website": "http://company.com",
+      "startDate": "01-07-2018",
+      "endDate": "Present",
+      "summary": "Description...",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Vanuatu Agriculture College",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
   "education": [],
   "awards": [],
   "publications": [],
   "skills": [],
-  "languages": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Intermediate speaker"
+    },
+    {
+      "language": "Bislama (Vanuatu Pidgin)",
+      "fluency": "Basic speaker"
+    }
+  ],
   "interests": [],
   "references": []
 }
