@@ -1,20 +1,25 @@
 {
   "basics": {
     "name": "Brendon Body",
-    "label": "Software Engineering",
+    "label": "Software Engineer",
     "picture": "https://s3.amazonaws.com/codingcompsapp/assets/profile_picture.jpg",
     "email": "bbody.project@gmail.com",
     "phone": "",
-    "website": "https://www.brendonbody.com",
-    "summary": "I am a software developer who loves to build whether it is through software or with my hands. I am interested in many areas of programming but particularly frontend web development. I am constantly upgrading my skills and always building projects in my spare time.",
+    "website": "http://www.brendonbody.com/",
+    "summary": "Experienced software engineer currently working as a frontend developer. Skilled in the fullstack as well as testing and devops. Experienced in banking and highly interested in Fintech. Always learning new things and ready for any challenge. Have also worked as a Business Analyst which has taught me to communicate better and cut through the noise.  Frontend: JavaScript (including ES6), jQuery, SCSS, HTML5, AngularJS, Backbase Backend: Ruby on Rails, NodeJS Testing: Mocha/Chai, Jasmine, WebdriverIO Devops: Travis, Github deployments",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Melbourne",
-      "countryCode": "Australia",
+      "countryCode": "AU",
       "region": ""
     },
     "profiles": [
+      {
+        "network": "Twitter",
+        "username": "DormeoES",
+        "url": "https://twitter.com/DormeoES"
+      },
       {
         "network": "Website",
         "username": "",
@@ -24,11 +29,6 @@
         "network": "Email",
         "username": "",
         "url": "mailto:bbody.project@gmail.com"
-      },
-      {
-        "network": "Twitter",
-        "username": "",
-        "url": "https://twitter.com/dormeoes"
       },
       {
         "network": "LinkedIn",
@@ -59,48 +59,173 @@
   },
   "work": [
     {
-      "company": "Hanes Brands",
+      "company": "Hanes Brands Australasia",
       "position": "Frontend Developer",
-      "website": "http://company.com",
-      "startDate": "01-07-2018",
-      "endDate": "Present",
-      "summary": "Description...",
-      "highlights": [
-        "Started the company"
-      ]
-    }
-  ],
-  "volunteer": [
+      "website": "",
+      "startDate": "2017-01-01",
+      "summary": "Hanes Australasia is home to some of Australia’s most recognised apparel and lifestyle brands including Bonds, Berlei and Sheridan.  Achievements: - Worked on brand refresh for Sheridan Boutique - Lead the build of new site for the Maidenform brand using a style guide - Introduced Frontend Unit Testing - Introduced ground work for Automated UI Testing - Major CSS/SCSS refactor and clean up across base styles - Wrote scripts to automate repetitive tasks to improve productivity  Roles & Responsibilities - Develop bug fixes and feature requests on frontend using HTML/HTML5, CSS/CSS3/SCSS, JavaScript/ES6/jQuery and PHP - Write unit tests using Karma and Jasmine - Write UI tests using WebdriverIO and Jasmine - Develop bug fixes and feature requests on Magento using PHP - Write documentation and conduct presentations to share knowledge among teams - Create campaign pages for various sales across different brands - Leverage PHPStorm and Sublime Text to develop code",
+      "highlights": []
+    },
     {
-      "organization": "Vanuatu Agriculture College",
-      "position": "Volunteer",
-      "website": "http://organization.com/",
+      "company": "Westpac",
+      "position": "Frontend Developer",
+      "website": "",
+      "startDate": "2016-03-01",
+      "summary": "Westpac is one of Australia's largest and most respected banks. WIB Digital is responsible for the Westpac Institutional Bank's institutional customers (corporates and government) digital strategy.  Responsibilities & Achievements: - Perform frontend development on a new customer portal for institutional banking customers - Work in an Agile environment, participating in sprints and estimation of tasks - Liaise with UX, BA, Product Owner and tester team members to solve complex problems - Manage offshore developer team to automate accessibility reports into behavioural test suite - Develop single page apps, directives and services using Angular.js on Backbase platform - Develop reusable Angular directives to solve common problems across website - Specialise in web accessibility leveraging semantic HTML and standard design patterns - Build reusable accessible components to share with other developers - Develop webpages based on UI/UX designs using HTML, Less/CSS and JavaScript - Perform code review for other developers frontend code to ensure code quality - Refactor and remove old code to ensure it meets current project standards",
+      "highlights": [],
+      "endDate": "2016-12-01"
+    },
+    {
+      "company": "Asia Technology, Westpac Institutional Bank",
+      "position": "Associate Project Manager",
+      "website": "",
+      "startDate": "2015-08-01",
+      "summary": "Westpac is one of Australia's largest and most respected banks. WIB Asia is run out of Singapore and has a presence throughout Asia in Hong Kong, China, India and Indonesia.  Responsibilities & Achievements: - Set up Confluence and Jira for two projects to run using Agile methodology - Performed data analysis on software applications - Performed analysis and consolidation of reports - Manage rollout during implementation phase of asset management project - Performed business analysis on requirements and engaged with vendor - Formed a team and won a competition to reduce paper usage in office - Based in Singapore office",
+      "highlights": [],
+      "endDate": "2016-03-01"
+    },
+    {
+      "company": "Payments & GTS Projects, Westpac",
+      "position": "Associate Business Analyst",
+      "website": "",
+      "startDate": "2015-03-01",
+      "summary": "Westpac is one of Australia's largest and most respected banks. Payments & GTS Projects is responsible for payment solutions for institutional (corporates and government) banking customers.  Responsibilities & Achievements: - Developed and modified software solution for proof of concept to demonstrate to senior management using Javascript and HTML - Refactored and developed a Ruby application which analysed transaction statements - Performed requirements gathering for a web portal for customers/staff - Wrote business requirements based on consultations with stakeholders - Pushed for customer-centric decisions, not settling for obvious answers and finding root causes - Participated in innovation council, helped organise events to promote innovation - Championed Confluence and Jira for innovation council and performed admin tasks - Participated in corporate hackathon run by Westpac and IBM used HTML, CSS, jQuery and Javascript",
+      "highlights": [],
+      "endDate": "2015-08-01"
+    },
+    {
+      "company": "Westpac",
+      "position": "Software Engineering Intern",
+      "website": "",
+      "startDate": "2013-11-01",
+      "summary": "Westpac is one of Australia's largest and most respected banks. The Mobile Application Development (MAD) is responsible for Westpac, St George, Bank of SA, Bank of Melbourne and BT Financial's Android, iOS and Windows Phone apps.  Responsibilities & Achievements: - Refactored Java code for an Android project - Performed bug fixes and developed new features on a GlassFish application using Java and JSF - Migrated a Web Application Messaging Protocol (WAMP) from Play Framework to Java EE7 using Websockets library (JSR-365) - Built a bidding/auction app using WAMP on top of GlassFish 4.0 and Android to demonstrate WAMP concepts",
+      "highlights": [],
+      "endDate": "2014-03-01"
+    },
+    {
+      "company": "Google",
+      "position": "Student Ambassador",
+      "website": "",
+      "startDate": "2013-03-01",
+      "summary": "The Google Student Ambassador program is designed for university students to be liaisons between Google and their university. At the University of Queensland on Google's behalf, I was a part of a team of ambassadors.  Responsibilities & Achievements - Organised events promoting Google products and Google's employment programs - Organised and gave a talk on entrepreneurialism at a student entrepreneur society - Acted as a bridge between Google and the university, to help Google better understand the university's culture",
+      "highlights": [],
+      "endDate": "2013-11-01"
+    },
+    {
+      "company": "Wenco International Mining Systems",
+      "position": "Test Engineer Intern",
+      "website": "",
+      "startDate": "2012-12-01",
+      "summary": "APS Mining (Now Wenco Mining Systems) is a provider of workflow management software and hardware solutions for mining companies.  Responsibilities & Achievements - Performed bug fixes and features requests on production code using C# .Net - Performed root cause analysis using Microsoft Server 2008 and MySQL - Performed functional testing and static code analysis on an outsourced project to determine its quality, leading to the project being insourced - Performed functional testing of both software and hardware products to increase product quality - Wrote comprehensive test plans for software for a range of products - Worked as a part of an agile team using Kanban to manage tasks - Developed a program to increase work efficiency waiting for hosts to become available in own time",
+      "highlights": [],
+      "endDate": "2013-11-01"
+    },
+    {
+      "company": "Keays Software",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "2012-04-01",
+      "summary": "Keays Software serves the civil engineering and surveying community by providing comprehensive, cutting-edge software designed by engineers, surveyors and information technology specialists.  Responsibilities & Achievements: - Designed and developed a software key licence system using C# .Net and C++ .Net using modern licencing techniques - Worked on modernising legacy code using C#, C++ .Net and ANSI C++ - Built a new company website using Joomla - Migrated users from former database using a Python script - Developed a program in C89 to help teach myself Windows commands from Linux equivalents",
+      "highlights": [],
+      "endDate": "2013-11-01"
+    },
+    {
+      "company": "Wali Technology",
+      "position": "Product Manager Intern",
+      "website": "",
       "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description...",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "summary": "Wali Technologies (now Xiaomi) was an app development company based in Beijing. Developed apps which ranged from games, utilities, messaging apps, etc.  Responsibilities & Achievements: - Performed competitive analysis on similar Android apps integrating reviews from multiple sources - Presented suggestions on the advantages of usage analytics in apps and how to use it",
+      "highlights": [],
+      "endDate": "2012-03-01"
     }
   ],
-  "education": [],
-  "awards": [],
-  "publications": [],
+  "education": [
+    {
+      "institution": "The University of Queensland",
+      "area": "Software Engineering",
+      "studyType": "Bachelor’s Degree",
+      "startDate": "2008-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2014-01-01"
+    },
+    {
+      "institution": "General Assembly",
+      "area": "Product Management",
+      "studyType": "Certificate",
+      "startDate": "2015-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2016-01-01"
+    },
+    {
+      "institution": "Zhejiang University",
+      "area": "Mandarin Chinese",
+      "studyType": "Exchange Student",
+      "startDate": "2014-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2014-01-01"
+    },
+    {
+      "institution": "Tianjin University",
+      "area": "Summer Internship",
+      "studyType": "Confucius Study Tour",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "The Chinese University of Hong Kong",
+      "area": "",
+      "studyType": "Exchange Student",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2011-01-01"
+    }
+  ],
   "skills": [],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native or bilingual proficiency"
     },
     {
       "language": "Mandarin Chinese",
-      "fluency": "Intermediate speaker"
+      "fluency": "Professional working proficiency"
     },
     {
       "language": "Bislama (Vanuatu Pidgin)",
-      "fluency": "Basic speaker"
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "Cantonese Chinese",
+      "fluency": "Elementary proficiency"
     }
   ],
-  "interests": [],
-  "references": []
+  "references": [],
+  "projects": [
+    {
+      "name": "WeChat Flight Booking Chat Bot",
+      "summary": "As part of the Qantas Codeshare Hackathon 2016, we built and pitched a WeChat bot for Chinese consumers to be able to ask basic queries and book tickets.",
+      "url": ""
+    },
+    {
+      "name": "Coding Comps",
+      "summary": "Coding Comps was designed to allow budding developers to keep track of upcoming deadlines and be a general directory for programming competitions.  Technologies: Ruby on Rails, jQuery, Bootstrap",
+      "url": "http://www.codingcomps.com"
+    },
+    {
+      "name": "My Startup Fail",
+      "summary": "My Startup Fail provides information to entrepreneurs through articles about failure, startup post-mortems and interviews with failed founders.",
+      "url": "http://www.mystartup.fail/"
+    },
+    {
+      "name": "WAMPee7",
+      "summary": "A library implementation of WAMP using JSR-365 for Websockets (Java EE7), based off the WAMPlay project.  Technologies: Websockets, Java EE7, WAMP",
+      "url": "https://github.com/bbody/WAMPee7"
+    }
+  ]
 }
