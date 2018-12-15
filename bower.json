@@ -33,7 +33,7 @@
     },
     "components-font-awesome": {
       "main": [
-        "css/fontawesome.min.css",
+        "css/fontawesome-all.min.css",
         "scss/fontawesome.scss"
       ]
     }
