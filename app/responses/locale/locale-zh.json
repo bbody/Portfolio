@@ -1,17 +1,36 @@
 {
 	"GLOBAL":{
 		"WEBSITE_TITLE": "{{name}}的作品展览",
-		"ALL_ITEMS": "所有"
+		"ALL_ITEMS": "所有的項目",
+		"NOT_FOUND": "没有找到项目",
+		"BACK": "返回首页",
+		"SKIP_MAIN_CONTENT": "跳转到主要内容",
+		"TOGGLE_NAVIGATION": "切换导航",
+		"DEVICES": {
+			"MOBILE": "手机",
+			"TABLET": "平板电脑",
+			"DESKTOP": "台式电脑"
+		}
 	},
 	"FOOTER":{
-		"BUILT_WITH": "造的工具。。。"
+		"BUILT_WITH": "造的工具："
 	},
 	"HEADER":{
 		"ABOUT":{
 			"TITLE": "关于{{name}}",
-			"IMAGE": "{{name}}的照片",
+			"IMAGE": "{{name}}的照相",
 			"AT": "在",
-			"LOCATION": "{{country}}{{city}}"
-		}
+			"LOCATION": "{{country}}，{{city}}"
+		},
+		"SOCIAL_MEDIA_PROFILE": "的账户"
+	},
+	"PORTFOLIO":{
+		"DESCRIPTION": "介绍",
+		"TECHNOLOGIES": "技术",
+		"LINKS": "网址"
+	},
+	"MODAL":{
+		"TITLE": "{{itemTitle}}截图",
+		"DONE": "关闭"
 	}
 }

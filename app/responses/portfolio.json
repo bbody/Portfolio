@@ -47,7 +47,7 @@
 		      {
 		        "network": "Website",
 		        "username": "",
-		        "url": "http://www.brendonbody.com/CMD-Resume/brendon.html"
+		        "url": "https://cmd-resume.bbody.io/"
 		      },
 		      {
 		        "network": "Github",
@@ -60,13 +60,13 @@
 				"tablet":[],
 				"desktop":[
 					{
-						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
+						"url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
 						"description": "Mock data user",
 						"colorPrimary": "black"
 					}
 				]
 			},
-			"technologies":["jQuery", "JavaScript", "Web"]
+			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Web"]
 		},
 		{
 			"stub": "multiline_js_converter",
