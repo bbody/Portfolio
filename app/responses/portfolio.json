@@ -111,6 +111,40 @@
 				]
 			},
 			"technologies":["JavaScript", "Skeleton", "clipboard.js", "Web"]
+		},
+		{
+			"stub": "seamcore",
+			"title": "Seamcore Drillhole Visualizer",
+			"description": "3D visualizing tool for raw drill data classified into coal deposits.",
+			"profiles": [
+		      {
+		        "network": "Website",
+		        "username": "",
+		        "url": "https://seamcore.bbody.io/"
+		      },
+		      {
+		        "network": "Github",
+		        "username": "",
+		        "url": "https://github.com/bbody/SeamCore"
+		      }
+		    ],
+			"screenshots":{
+				"mobile":[],
+				"tablet":[],
+				"desktop":[
+					{
+						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png",
+						"description": "Screenshot",
+						"colorPrimary": "#262626"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/demo.gif",
+						"description": "Demonstration",
+						"colorPrimary": "#262626"
+					}
+				]
+			},
+			"technologies":["JavaScript", "Three.JS", "Web"]
 		}
 	]
 }
