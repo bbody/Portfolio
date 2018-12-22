@@ -145,6 +145,35 @@
 				]
 			},
 			"technologies":["JavaScript", "Three.JS", "Web"]
+		},
+		{
+			"stub": "wlcmd",
+			"title": "WLCMD",
+			"description": "Windows/*nix Commandline Dictionary for interoperability.",
+			"profiles": [
+		      {
+		        "network": "Github",
+		        "username": "",
+		        "url": "https://github.com/bbody/wlcmd"
+		      }
+		    ],
+			"screenshots":{
+				"mobile":[],
+				"tablet":[],
+				"desktop":[
+					{
+						"url": "https://raw.githubusercontent.com/bbody/wlcmd/master/screenshot.png",
+						"description": "Screenshot",
+						"colorPrimary": "black"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/bbody/wlcmd/master/demo.gif",
+						"description": "Demonstration",
+						"colorPrimary": "black"
+					}
+				]
+			},
+			"technologies":["C", "Desktop"]
 		}
 	]
 }
