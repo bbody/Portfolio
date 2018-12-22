@@ -94,17 +94,17 @@
 				"tablet":[],
 				"desktop":[
 					{
-						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/MultilineJavaScriptConverter/input.png",
+						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/input.png",
 						"description": "Input",
 						"colorPrimary": "white"
 					},
 					{
-						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/MultilineJavaScriptConverter/output.png",
+						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/output.png",
 						"description": "Output",
 						"colorPrimary": "white"
 					},
 					{
-						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/MultilineJavaScriptConverter/demo.gif",
+						"url": "",
 						"description": "Demonstration",
 						"colorPrimary": "white"
 					}
