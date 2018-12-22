@@ -71,7 +71,7 @@
 					}
 				]
 			},
-			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Web"]
+			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Web"]
 		},
 		{
 			"stub": "multiline_js_converter",
@@ -110,7 +110,7 @@
 					}
 				]
 			},
-			"technologies":["JavaScript", "Skeleton", "clipboard.js", "Web"]
+			"technologies":["JavaScript", "Mocha/Chai", "Skeleton", "clipboard.js", "Web"]
 		},
 		{
 			"stub": "seamcore",
