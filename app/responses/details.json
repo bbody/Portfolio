@@ -205,27 +205,5 @@
       "fluency": "Elementary proficiency"
     }
   ],
-  "references": [],
-  "projects": [
-    {
-      "name": "WeChat Flight Booking Chat Bot",
-      "summary": "As part of the Qantas Codeshare Hackathon 2016, we built and pitched a WeChat bot for Chinese consumers to be able to ask basic queries and book tickets.",
-      "url": ""
-    },
-    {
-      "name": "Coding Comps",
-      "summary": "Coding Comps was designed to allow budding developers to keep track of upcoming deadlines and be a general directory for programming competitions.  Technologies: Ruby on Rails, jQuery, Bootstrap",
-      "url": "http://www.codingcomps.com"
-    },
-    {
-      "name": "My Startup Fail",
-      "summary": "My Startup Fail provides information to entrepreneurs through articles about failure, startup post-mortems and interviews with failed founders.",
-      "url": "http://www.mystartup.fail/"
-    },
-    {
-      "name": "WAMPee7",
-      "summary": "A library implementation of WAMP using JSR-365 for Websockets (Java EE7), based off the WAMPlay project.  Technologies: Websockets, Java EE7, WAMP",
-      "url": "https://github.com/bbody/WAMPee7"
-    }
-  ]
+  "references": []
 }

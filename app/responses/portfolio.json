@@ -37,7 +37,7 @@
 					}
 				]
 			},
-			"technologies":["Ruby on Rails","Web"]
+			"technologies":["Ruby on Rails", "Web"]
 		},
 		{
 			"stub": "cmd_resume",
@@ -71,7 +71,7 @@
 					}
 				]
 			},
-			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Web"]
+			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Travis", "Web"]
 		},
 		{
 			"stub": "multiline_js_converter",
@@ -110,7 +110,7 @@
 					}
 				]
 			},
-			"technologies":["JavaScript", "Mocha/Chai", "Skeleton", "clipboard.js", "Web"]
+			"technologies":["JavaScript", "Mocha/Chai", "Skeleton", "clipboard.js", "Travis", "Web"]
 		},
 		{
 			"stub": "seamcore",
@@ -144,7 +144,7 @@
 					}
 				]
 			},
-			"technologies":["JavaScript", "Three.JS", "Web"]
+			"technologies":["JavaScript", "Three.JS", "Travis", "Web"]
 		},
 		{
 			"stub": "wlcmd",
@@ -173,7 +173,7 @@
 					}
 				]
 			},
-			"technologies":["C", "Desktop"]
+			"technologies":["C", "Travis", "Desktop"]
 		}
 	]
 }
