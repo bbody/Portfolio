@@ -1,6 +1,113 @@
 {
 	"projects":[
 		{
+			"stub": "cmd_resume",
+			"title": "CMD Resume",
+			"description": "Web-based Command Line Resume",
+			"profiles": [
+		      {
+		        "network": "Website",
+		        "username": "",
+		        "url": "https://cmd-resume.bbody.io/"
+		      },
+		      {
+		        "network": "Github",
+		        "username": "",
+		        "url": "https://github.com/bbody/CMD-Resume"
+		      }
+		    ],
+			"screenshots":{
+				"mobile":[],
+				"tablet":[],
+				"desktop":[
+					{
+						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
+						"description": "Mock data user",
+						"colorPrimary": "black"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
+						"description": "Demonstration",
+						"colorPrimary": "black"
+					}
+				]
+			},
+			"technologies":["jQuery", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Travis", "Web"]
+		},
+		{
+			"stub": "multiline_js_converter",
+			"title": "Multiline Javascript Converter",
+			"description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6.",
+			"profiles": [
+		      {
+		        "network": "Website",
+		        "username": "",
+		        "url": "https://www.brendonbody.com/MultilineJavaScriptConverter/"
+		      },
+		      {
+		        "network": "Github",
+		        "username": "",
+		        "url": "https://github.com/bbody/MultilineJavaScriptConverter"
+		      }
+		    ],
+			"screenshots":{
+				"mobile":[],
+				"tablet":[],
+				"desktop":[
+					{
+						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/input.png",
+						"description": "Input",
+						"colorPrimary": "white"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/output.png",
+						"description": "Output",
+						"colorPrimary": "white"
+					},
+					{
+						"url": "",
+						"description": "Demonstration",
+						"colorPrimary": "white"
+					}
+				]
+			},
+			"technologies":["JavaScript", "ES6", "Mocha/Chai", "Skeleton", "ClipboardJS", "Travis", "Web"]
+		},
+		{
+			"stub": "seamcore",
+			"title": "Seamcore Drillhole Visualizer",
+			"description": "3D visualizing tool for raw drill data classified into coal deposits.",
+			"profiles": [
+		      {
+		        "network": "Website",
+		        "username": "",
+		        "url": "https://seamcore.bbody.io/"
+		      },
+		      {
+		        "network": "Github",
+		        "username": "",
+		        "url": "https://github.com/bbody/SeamCore"
+		      }
+		    ],
+			"screenshots":{
+				"mobile":[],
+				"tablet":[],
+				"desktop":[
+					{
+						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png",
+						"description": "Screenshot",
+						"colorPrimary": "#262626"
+					},
+					{
+						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/demo.gif",
+						"description": "Demonstration",
+						"colorPrimary": "#262626"
+					}
+				]
+			},
+			"technologies":["JavaScript", "ThreeJS", "Travis", "Web"]
+		},
+		{
 			"stub": "coding_comps",
 			"title": "Coding Comps",
 			"description": "Directory for competitive coding competitions with tips and resources",
@@ -40,113 +147,6 @@
 			"technologies":["Ruby on Rails", "Web"]
 		},
 		{
-			"stub": "cmd_resume",
-			"title": "CMD Resume",
-			"description": "Web-based Command Line Resume",
-			"profiles": [
-		      {
-		        "network": "Website",
-		        "username": "",
-		        "url": "https://cmd-resume.bbody.io/"
-		      },
-		      {
-		        "network": "Github",
-		        "username": "",
-		        "url": "https://github.com/bbody/CMD-Resume"
-		      }
-		    ],
-			"screenshots":{
-				"mobile":[],
-				"tablet":[],
-				"desktop":[
-					{
-						"url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
-						"description": "Mock data user",
-						"colorPrimary": "black"
-					},
-					{
-						"url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
-						"description": "Demonstration",
-						"colorPrimary": "black"
-					}
-				]
-			},
-			"technologies":["jQuery", "jQuery Terminal", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Travis", "Web"]
-		},
-		{
-			"stub": "multiline_js_converter",
-			"title": "Multiline Javascript Converter",
-			"description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6.",
-			"profiles": [
-		      {
-		        "network": "Website",
-		        "username": "",
-		        "url": "https://www.brendonbody.com/MultilineJavaScriptConverter/"
-		      },
-		      {
-		        "network": "Github",
-		        "username": "",
-		        "url": "https://github.com/bbody/MultilineJavaScriptConverter"
-		      }
-		    ],
-			"screenshots":{
-				"mobile":[],
-				"tablet":[],
-				"desktop":[
-					{
-						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/input.png",
-						"description": "Input",
-						"colorPrimary": "white"
-					},
-					{
-						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/output.png",
-						"description": "Output",
-						"colorPrimary": "white"
-					},
-					{
-						"url": "",
-						"description": "Demonstration",
-						"colorPrimary": "white"
-					}
-				]
-			},
-			"technologies":["JavaScript", "Mocha/Chai", "Skeleton", "clipboard.js", "Travis", "Web"]
-		},
-		{
-			"stub": "seamcore",
-			"title": "Seamcore Drillhole Visualizer",
-			"description": "3D visualizing tool for raw drill data classified into coal deposits.",
-			"profiles": [
-		      {
-		        "network": "Website",
-		        "username": "",
-		        "url": "https://seamcore.bbody.io/"
-		      },
-		      {
-		        "network": "Github",
-		        "username": "",
-		        "url": "https://github.com/bbody/SeamCore"
-		      }
-		    ],
-			"screenshots":{
-				"mobile":[],
-				"tablet":[],
-				"desktop":[
-					{
-						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png",
-						"description": "Screenshot",
-						"colorPrimary": "#262626"
-					},
-					{
-						"url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/demo.gif",
-						"description": "Demonstration",
-						"colorPrimary": "#262626"
-					}
-				]
-			},
-			"technologies":["JavaScript", "Three.JS", "Travis", "Web"]
-		},
-		{
 			"stub": "wlcmd",
 			"title": "WLCMD",
 			"description": "Windows/*nix Commandline Dictionary for interoperability.",
@@ -173,7 +173,7 @@
 					}
 				]
 			},
-			"technologies":["C", "Travis", "Desktop"]
+			"technologies":["C", "C89", "Travis", "Desktop"]
 		}
 	]
 }
