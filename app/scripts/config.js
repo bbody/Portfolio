@@ -7,14 +7,15 @@
  * # titleService
  * Service in the portfolioApp.
  */
+var isLocal = location.hostname === "localhost";
+var addressRoot = isLocal ? "./responses/" : "https://s3-ap-southeast-2.amazonaws.com/bbody/Details/";
 angular.module('portfolioApp')
 	.config(
 		['$compileProvider', '$locationProvider', '$routeProvider', '$translateProvider', 
 		function($compileProvider, $locationProvider, $routeProvider, $translateProvider) {
 	  	// Setup Translation Services
 	    $translateProvider.useStaticFilesLoader({
-	      	prefix: 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/locale/locale-',
-	      	// prefix: 'responses	/locale/locale-',
+	      	prefix: addressRoot + 'locale/locale-',
 	      	suffix: '.json'
 	  	});
 	  	$translateProvider.preferredLanguage('en');
@@ -41,5 +42,5 @@ angular.module('portfolioApp')
 	      });
 
 	      // For production, turn off debugging
-	      $compileProvider.debugInfoEnabled(false);
+	      $compileProvider.debugInfoEnabled(isLocal);
 	  }]);

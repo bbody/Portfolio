@@ -7,10 +7,12 @@
  * # titleService
  * Service in the portfolioApp.
  */
+var addressRoot = location.hostname === "localhost" ? "./responses/" : "https://s3-ap-southeast-2.amazonaws.com/bbody/Details/";
+
 angular.module('portfolioApp')
   .constant('endPoints', {
-    'portfolio_technologies': 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/portfolio_technologies.json',
-    'portfolio': 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/portfolio.json',
-    'technologies':'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/technologies.json',
-    'information': 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/details.json'
+    'portfolio_technologies': addressRoot  + 'portfolio_technologies.json',
+    'portfolio': addressRoot  + 'portfolio.json',
+    'technologies':addressRoot  + 'technologies.json',
+    'information': addressRoot  + 'details.json'
   });
