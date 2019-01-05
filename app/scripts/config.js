@@ -7,8 +7,8 @@
  * # titleService
  * Service in the portfolioApp.
  */
-var isLocal = location.hostname === "localhost";
-var addressRoot = isLocal ? "./responses/" : "https://s3-ap-southeast-2.amazonaws.com/bbody/Details/";
+var isLocal = location.hostname === 'localhost';
+var addressRoot = isLocal ? './responses/' : 'https://s3-ap-southeast-2.amazonaws.com/bbody/Details/';
 angular.module('portfolioApp')
 	.config(
 		['$compileProvider', '$locationProvider', '$routeProvider', '$translateProvider', 
