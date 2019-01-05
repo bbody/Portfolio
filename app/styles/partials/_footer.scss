@@ -10,15 +10,14 @@ footer{
         text-align: left;
     }
 
-    .devicon{
-        font-size: 4em;
+    i {
+        font-size: 2em;
     }
 
     .built-with-item{
         border-left: $border-width $white-colour solid;
-    }
-
-    .built-with-item:first-child{
-        border-left: none;
+        &:first-child {
+            border-left: none;
+        }
     }
 }
