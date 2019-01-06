@@ -11,9 +11,11 @@ angular.module('portfolioApp')
 	  return {
 	    restrict: 'A',
 	    scope: {
-	      name: '@technologyItem'
+	      name: '@technologyItem',
+	      reason: '@technologyItemReason'
 	    },
 	    link: function($scope){
+	    	console.log($scope);
 	    	var deviconIcons = ['amazonwebservices', 'android', 'angularjs', 'apache', 'appcelerator', 'apple', 'atom', 'backbonejs', 'bitbucket', 'bootstrap', 'bower', 'c', 'chrome', 'codeigniter', 'coffeescript', 'confluence', 'cplusplus', 'csharp', 'css3', 'd3js', 'debian', 'django', 'docker', 'doctrine', 'dot-net', 'drupal', 'erlang', 'firefox', 'foundation', 'gimp', 'git', 'github', 'gitlab', 'go', 'grunt', 'gulp', 'heroku', 'html5', 'ie10', 'illustrator', 'inkscape', 'java', 'javascript', 'jeet', 'jetbrains', 'jquery', 'krakenjs', 'laravel', 'less', 'linux', 'meteor', 'mongodb', 'moodle', 'mysql', 'nginx', 'nodejs', 'nodewebkit', 'oracle', 'photoshop', 'php', 'phpstorm', 'postgresql', 'python', 'rails', 'react', 'redhat', 'redis', 'ruby', 'safari', 'sass', 'sourcetree', 'ssh', 'symfony', 'travis', 'trello', 'ubuntu', 'vim', 'windows8', 'wordpress', 'yii', 'zend'];
 	      var key = $scope.name.replace(/ /g, '-').toLowerCase();
 	      $scope.class = 'fa fa-tag';

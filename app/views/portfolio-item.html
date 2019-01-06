@@ -57,8 +57,8 @@
                     <p>{{portfolioItem.description}}</p>
                     <h3 data-translate="PORTFOLIO.TECHNOLOGIES"></h3>
                     <ul class="links-list">
-                        <li data-ng-repeat="technology in portfolioItem.technologies">
-                            <span data-technology-item="{{technology}}"></span>
+                        <li data-ng-repeat="(technologyName, technologyValue) in portfolioItem.technologies" data-ng-if="technologyValue.show">
+                            <span data-technology-item="{{technologyName}}" data-technology-item-reason="{{technologyValue.reason}}"></span>
                         </li>
                     </ul>
                     <h3 data-translate="PORTFOLIO.LINKS"></h3>

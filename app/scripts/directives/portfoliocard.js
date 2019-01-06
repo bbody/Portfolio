@@ -17,7 +17,7 @@ angular.module('portfolioApp')
 	    link: function($scope){
 	      // Get first desktop image
 	      $scope.imageUrl = $scope.item.screenshots.desktop[0].url;
-	      $scope.technologies = $scope.item.technologies;
+	      $scope.technologies = Object.keys($scope.item.technologies);
 	      
 	      $scope.style = '';
 

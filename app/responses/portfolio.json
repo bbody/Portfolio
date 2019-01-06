@@ -3,7 +3,7 @@
 		{
 			"stub": "cmd_resume",
 			"title": "CMD Resume",
-			"description": "Web-based Command Line Resume",
+			"description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM.",
 			"profiles": [
 		      {
 		        "network": "Website",
@@ -32,7 +32,7 @@
 					}
 				]
 			},
-			"technologies":["jQuery", "JavaScript", "Jasmine", "Karma", "WebdriverIO", "Travis", "Web"]
+			"technologies":{"jQuery": {"show": false, "reason": ""}, "JavaScript": {"show": false, "reason": ""}, "Gulp": {"show": true, "reason": "JavaScript build tool"}, "Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"}, "Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"}, "WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"}, "Travis": {"show": true, "reason": "CI server for building, testing and deploying"}, "wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"}, "JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "multiline_js_converter",
@@ -71,7 +71,7 @@
 					}
 				]
 			},
-			"technologies":["JavaScript", "ES6", "Mocha/Chai", "Skeleton", "ClipboardJS", "Travis", "Web"]
+			"technologies":{"JavaScript": {"show": false, "reason": ""}, "ECMA6": {"show": true, "reason": "Written in ES6 to take advanctage of the latest JavaScript versions"}, "Babel": {"show": true, "reason": "To transpile code back to ES5 for maximum compatibility"}, "Browserify": {"show": true, "reason": "Used to abstract logic from DOM interaction code"}, "Mocha/Chai": {"show": true, "reason": "Fully unit tested code with 100% coverage"}, "Skeleton": {"show": true, "reason": "Very small and minimal CSS library that fits this requirement well"}, "ClipboardJS": {"show": true, "reason": "To allow outputted result to be added to Clipboard easily"}, "Travis": {"show": false, "reason": "Builds, tests and deploys to Github Pages"}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "seamcore",
@@ -105,7 +105,7 @@
 					}
 				]
 			},
-			"technologies":["JavaScript", "ThreeJS", "Travis", "Web"]
+			"technologies":{"JavaScript": {"show": false, "reason": ""}, "ThreeJS": {"show": true, "reason": "For showing 3D visualization of coal"}, "Travis": {"show": true, "reason": "For building and deploying to Github Pages"}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "coding_comps",
@@ -144,7 +144,7 @@
 					}
 				]
 			},
-			"technologies":["Ruby on Rails", "Web"]
+			"technologies":{"Ruby on Rails": {"show": true, "reason": ""}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "wlcmd",
@@ -173,7 +173,7 @@
 					}
 				]
 			},
-			"technologies":["C", "C89", "Travis", "Desktop"]
+			"technologies":{"C": {"show": true, "reason": "C89 with pedantic flags to reduce bugs"}, "Travis": {"show": true, "reason": "Compiles across Windows 10, MacOS and Ubuntu Linux and deploys to Github Releases"}, "Desktop": {"show": false, "reason": ""}}
 		}
 	]
 }
