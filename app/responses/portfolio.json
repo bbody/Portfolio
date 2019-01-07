@@ -3,7 +3,7 @@
 		{
 			"stub": "cmd_resume",
 			"title": "CMD Resume",
-			"description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM.",
+			"description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM. For more information read the blog post.",
 			"profiles": [
 		      {
 		        "network": "Website",
@@ -14,6 +14,11 @@
 		        "network": "Github",
 		        "username": "",
 		        "url": "https://github.com/bbody/CMD-Resume"
+		      },
+		      {
+		      	"network": "Blog",
+		      	"username": "",
+		      	"url": "https://www.brendonbody.com/2019/01/04/cmd-resume/"
 		      }
 		    ],
 			"screenshots":{
@@ -29,7 +34,7 @@
 						"url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
 						"description": "Demonstration",
 						"colorPrimary": "black"
-					}
+					},
 				]
 			},
 			"technologies":{"jQuery": {"show": false, "reason": ""}, "JavaScript": {"show": false, "reason": ""}, "Gulp": {"show": true, "reason": "JavaScript build tool"}, "Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"}, "Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"}, "WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"}, "Travis": {"show": true, "reason": "CI server for building, testing and deploying"}, "wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"}, "JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"}, "Web": {"show": false, "reason": ""}}
