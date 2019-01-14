@@ -1,14 +1,26 @@
 # Portfolio
 
-[Example](https://portfolio.bbody.io/)
+![Screenshot](https://raw.githubusercontent.com/bbody/Portfolio/master/screenshots/screenshot.png)
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+l
 
-## Build & development
+[My example](https://portfolio.bbody.io/)
 
-Run `grunt` for building and `grunt serve` for preview.
+## Commands
 
-## Testing
+### Build & development
 
-Running `grunt test` will run the unit tests with karma.
+`grunt`
+
+or
+
+`grunt server`
+
+### Testing
+
+`npm test`
+
+## Technologies
+
+* [AngularJS 1.x](https://angularjs.org/)
+* [Yeoman Angular v0.15.1](https://github.com/yeoman/generator-angular)
