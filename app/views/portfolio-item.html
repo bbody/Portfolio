@@ -53,23 +53,34 @@
                     </div>
                 </div>
                 <div data-ng-class="screenshotTypes ? 'col-sm-5 col-sm-offset-1' : 'col-sm-12'">
-                    <h3 data-translate="PORTFOLIO.DESCRIPTION"></h3>
-                    <p>{{portfolioItem.description}}</p>
-                    <h3 data-translate="PORTFOLIO.TECHNOLOGIES"></h3>
-                    <ul class="links-list">
-                        <li data-ng-repeat="(technologyName, technologyValue) in portfolioItem.technologies" data-ng-if="technologyValue.show">
-                            <span data-technology-item="{{technologyName}}" data-technology-item-reason="{{technologyValue.reason}}"></span>
-                        </li>
-                    </ul>
-                    <h3 data-translate="PORTFOLIO.LINKS"></h3>
-                    <ul class="links-list">
-                        <li data-ng-repeat="profile in portfolioItem.profiles">
-                            <span 
-                                data-link-item="{{profile.network}}" 
-                                data-href="{{profile.url}}"
-                                data-type="{{profile.network.toLowerCase()}}"></span>
-                        </li>
-                    </ul>
+                    <div data-ng-if="portfolioItem.description && portfolioItem.description.length > 0">
+                        <h3 data-translate="PORTFOLIO.DESCRIPTION"></h3>
+                        <p>{{portfolioItem.description}}</p>
+                    </div>
+
+                    <div data-ng-if="portfolioItem.purpose && portfolioItem.purpose.length > 0">
+                        <h3 data-translate="PORTFOLIO.PURPOSE"></h3>
+                        <p>{{portfolioItem.purpose}}</p>
+                    </div>
+                    <div data-ng-if="portfolioItem.hasTechnologies">
+                        <h3 data-translate="PORTFOLIO.TECHNOLOGIES"></h3>
+                        <ul class="links-list">
+                            <li data-ng-repeat="(technologyName, technologyValue) in portfolioItem.technologies" data-ng-if="technologyValue.show">
+                                <span data-technology-item="{{technologyName}}" data-technology-item-reason="{{technologyValue.reason}}"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-ng-if="portfolioItem.profiles && portfolioItem.profiles.length > 0">
+                        <h3 data-translate="PORTFOLIO.LINKS"></h3>
+                        <ul class="links-list">
+                            <li data-ng-repeat="profile in portfolioItem.profiles">
+                                <span 
+                                    data-link-item="{{profile.network}}" 
+                                    data-href="{{profile.url}}"
+                                    data-type="{{profile.network.toLowerCase()}}"></span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
     		</div> 
     	</div>

@@ -55,6 +55,7 @@ angular.module('portfolioApp')
 			dataCacheService.getInformation().then(function(data){
 				$scope.hasItem = !!$scope.portfolioItem;
 				if ($scope.hasItem){
+					$scope.portfolioItem.hasTechnologies = Object.keys($scope.portfolioItem.technologies).length > 0;
 					titleService.updateTitle(data.basics.name, $scope.portfolioItem.title);
 					$scope.screenshotTypes = $scope.multipleScreenshotTypes();
 				} else {
