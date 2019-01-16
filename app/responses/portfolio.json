@@ -37,17 +37,17 @@
 					}
 				]
 			},
-			"technologies":{"jQuery": {"show": false, "reason": ""}, "JavaScript": {"show": false, "reason": ""}, "Gulp": {"show": true, "reason": "JavaScript build tool"}, "Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"}, "Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"}, "WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"}, "Travis": {"show": true, "reason": "CI server for building, testing and deploying"}, "wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"}, "JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"}, "Web": {"show": false, "reason": ""}}
+			"technologies":{"jQuery": {"show": true, "reason": ""}, "JavaScript": {"show": false, "reason": ""}, "Gulp": {"show": true, "reason": "JavaScript build tool"}, "Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"}, "Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"}, "WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"}, "Travis": {"show": true, "reason": "CI server for building, testing and deploying"}, "wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"}, "JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "multiline_js_converter",
 			"title": "Multiline Javascript Converter",
-			"description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6.",
+			"description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6. Fully automated CI with Travis running linting and testing. Deploys to Github Pages.",
 			"profiles": [
 		      {
 		        "network": "Website",
 		        "username": "",
-		        "url": "https://www.brendonbody.com/MultilineJavaScriptConverter/"
+		        "url": "https://jsstringconverter.bbody.io/"
 		      },
 		      {
 		        "network": "Github",
@@ -76,12 +76,12 @@
 					}
 				]
 			},
-			"technologies":{"JavaScript": {"show": false, "reason": ""}, "ECMA6": {"show": true, "reason": "Written in ES6 to take advanctage of the latest JavaScript versions"}, "Babel": {"show": true, "reason": "To transpile code back to ES5 for maximum compatibility"}, "Browserify": {"show": true, "reason": "Used to abstract logic from DOM interaction code"}, "Mocha/Chai": {"show": true, "reason": "Fully unit tested code with 100% coverage"}, "Skeleton": {"show": true, "reason": "Very small and minimal CSS library that fits this requirement well"}, "ClipboardJS": {"show": true, "reason": "To allow outputted result to be added to Clipboard easily"}, "Travis": {"show": false, "reason": "Builds, tests and deploys to Github Pages"}, "Web": {"show": false, "reason": ""}}
+			"technologies":{"JavaScript": {"show": false, "reason": ""}, "ECMA6": {"show": true, "reason": "Written in ES6 to take advantage of the latest JavaScript versions"}, "Babel": {"show": true, "reason": "To transpile code back to ES5 for maximum compatibility"}, "Browserify": {"show": true, "reason": "Used to abstract logic from DOM interaction code"}, "Mocha/Chai": {"show": true, "reason": "Fully unit tested code with 100% coverage"}, "Skeleton": {"show": true, "reason": "Very small and minimal CSS library that fits this requirement well"}, "ClipboardJS": {"show": true, "reason": "To allow outputted result to be added to Clipboard easily"}, "Travis": {"show": false, "reason": "Builds, tests and deploys to Github Pages"}, "Web": {"show": false, "reason": ""}}
 		},
 		{
 			"stub": "seamcore",
 			"title": "Seamcore Drillhole Visualizer",
-			"description": "3D visualizing tool for raw drill data classified into coal deposits.",
+			"description": "3D visualizing tool for raw drill data classified into coal deposits. Built for a hackathon.",
 			"profiles": [
 		      {
 		        "network": "Website",
