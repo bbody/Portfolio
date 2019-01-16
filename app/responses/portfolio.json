@@ -37,7 +37,18 @@
 					}
 				]
 			},
-			"technologies":{"jQuery": {"show": true, "reason": ""}, "JavaScript": {"show": false, "reason": ""}, "Gulp": {"show": true, "reason": "JavaScript build tool"}, "Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"}, "Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"}, "WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"}, "Travis": {"show": true, "reason": "CI server for building, testing and deploying"}, "wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"}, "JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"}, "Web": {"show": false, "reason": ""}}
+			"technologies":{
+				"jQuery": {"show": true, "reason": "Used as is a dependency for jQuery Terminal"},
+				"JavaScript": {"show": false, "reason": ""},
+				"Gulp": {"show": true, "reason": "JavaScript build tool"},
+				"Jasmine": {"show": true, "reason": "Used for both Unit and UI testing"},
+				"Karma": {"show": true, "reason": "Used for setting up the Unit Testing environment"},
+				"WebdriverIO": {"show": true, "reason": "Used for running UI testing across browsers"},
+				"Travis": {"show": true, "reason": "CI server for building, testing and deploying"},
+				"wdio-visual-regression": {"show": true, "reason": "Used for testing whether any changes affect the look during UI testing"},
+				"JSON Resume": {"show": true, "reason": "Used as the specification for how the resume is formatted"},
+				"Web": {"show": false, "reason": ""}
+			}
 		},
 		{
 			"stub": "multiline_js_converter",
@@ -70,7 +81,7 @@
 						"colorPrimary": "white"
 					},
 					{
-						"url": "",
+						"url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/demo.gif",
 						"description": "Demonstration",
 						"colorPrimary": "white"
 					}
