@@ -27,6 +27,7 @@
 	"PORTFOLIO":{
 		"DESCRIPTION": "Description",
 		"TECHNOLOGIES": "Technologies",
+		"PURPOSE": "Purpose",
 		"LINKS": "Links"
 	},
 	"MODAL":{

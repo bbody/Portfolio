@@ -27,6 +27,7 @@
 	"PORTFOLIO":{
 		"DESCRIPTION": "介绍",
 		"TECHNOLOGIES": "技术",
+		"PURPOSE": "目的",
 		"LINKS": "网址"
 	},
 	"MODAL":{
