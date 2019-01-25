@@ -2,9 +2,10 @@
 
 ![Screenshot](https://raw.githubusercontent.com/bbody/Portfolio/master/screenshots/screenshot.png)
 
-l
+A portfolio of my projects.
 
-[My example](https://portfolio.bbody.io/)
+Examples:
+* [My example](https://portfolio.bbody.io/)
 
 ## Commands
 
@@ -14,7 +15,7 @@ l
 
 or
 
-`grunt server`
+`grunt serve`
 
 ### Testing
 
