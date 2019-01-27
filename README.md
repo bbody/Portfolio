@@ -5,7 +5,7 @@
 A portfolio of my projects.
 
 Examples:
-* [My example](https://portfolio.bbody.io/)
+* [Brendon Body (Me)](https://portfolio.bbody.io/)
 
 ## Commands
 
