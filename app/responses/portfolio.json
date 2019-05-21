@@ -1,10 +1,82 @@
 {
   "projects": [
   {
+    "stub": "commit_competition",
+    "title": "Commit Comp",
+    "description": "App to track Github commit competions between peers.",
+    "purpose": "Built to created an automated dashboard for competitions between my friends .",
+    "profiles": [
+    {
+      "network": "Website",
+      "username": "",
+      "url": "https://commit-comp.bbody.io/"
+    },
+    {
+      "network": "Github",
+      "username": "",
+      "url": "https://github.com/bbody/commit-comp"
+    },
+    {
+      "network": "Blog",
+      "username": "",
+      "url": "https://www.brendonbody.com/2019/04/28/commit-competition/"
+    }],
+    "screenshots":
+    {
+      "mobile": [],
+      "tablet": [],
+      "desktop": [
+      {
+        "url": "https://raw.githubusercontent.com/bbody/commit-comp/master/screenshot.png",
+        "description": "Dashboard",
+        "colorPrimary": "#FAFAFA"
+      }
+    ]
+    },
+    "technologies":
+    {
+      "VueJS":
+      {
+        "show": true,
+        "reason": "Frontend framework"
+      },
+      "JavaScript":
+      {
+        "show": false,
+        "reason": ""
+      },
+      "TypeScript":
+      {
+        "show": true,
+        "reason": "Used for type safe JavaScript code"
+      },
+      "CypressIO":
+      {
+        "show": true,
+        "reason": "Used for both UI testing"
+      },
+      "Jest":
+      {
+        "show": true,
+        "reason": "Used for both unit testing"
+      },
+      "Travis":
+      {
+        "show": true,
+        "reason": "CI server for building, testing and deploying"
+      },
+      "Web":
+      {
+        "show": false,
+        "reason": ""
+      }
+    }
+  },
+  {
     "stub": "cmd_resume",
     "title": "CMD Resume",
     "description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM. For more information read the blog post.",
-    "purpose": "Built as an alternative way to show off my resume.",
+    "purpose": "Built as an alternative way to display my resume.",
     "profiles": [
     {
       "network": "Website",
