@@ -1,5 +1,68 @@
 {
   "projects": [
+    {
+      "stub": "emojimailer",
+      "title": "EmojiMailer",
+      "description": "A website for getting size of a website and letting you know how many floppies it will fit on.",
+      "purpose": "Built to increase website performance by decreasing page size.",
+      "profiles": [
+      {
+        "network": "Website",
+        "username": "",
+        "url": "https://www.emojimailer.com/"
+      },
+      {
+        "network": "Blog",
+        "username": "",
+        "url": "https://www.brendonbody.com/2019/11/22/EmojiMailer/"
+      }],
+      "screenshots":
+      {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+        {
+          "url": "https://raw.githubusercontent.com/bbody/bbody.github.io/master/_posts/images/2019-11-22-EmojiMailer/letter.jpg",
+          "description": "Postcard",
+          "colorPrimary": "#FFFFFF"
+        }
+      ]
+      }
+    },
+    {
+      "stub": "fit_on_a_floppy",
+      "title": "Fit on a Floppy",
+      "description": "A website for getting size of a website and letting you know how many floppies it will fit on.",
+      "purpose": "Built to increase website performance by decreasing page size.",
+      "profiles": [
+      {
+        "network": "Website",
+        "username": "",
+        "url": "https://fitonafloppy.website/"
+      },
+      {
+        "network": "Github",
+        "username": "",
+        "url": "https://github.com/bbody/fit-on-a-floppy"
+      },
+      {
+        "network": "Blog",
+        "username": "",
+        "url": "https://www.brendonbody.com/2019/11/13/fit-on-a-floppy/"
+      }],
+      "screenshots":
+      {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+        {
+          "url": "https://raw.githubusercontent.com/bbody/fit-on-a-floppy/master/demo.gif",
+          "description": "Animation",
+          "colorPrimary": "#FFFFFF"
+        }
+      ]
+      }
+    },
   {
     "stub": "commit_competition",
     "title": "Commit Comp",
