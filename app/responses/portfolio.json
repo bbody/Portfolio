@@ -27,7 +27,36 @@
           "colorPrimary": "#FFFFFF"
         }
       ]
+      },
+
+    "technologies":
+    {
+      "React":
+      {
+        "show": true,
+        "reason": "Frontend framework"
+      },
+      "JavaScript":
+      {
+        "show": false,
+        "reason": ""
+      },
+      "Ruby on Rails":
+      {
+        "show": true,
+        "reason": ""
+      },
+      "Circle CI":
+      {
+        "show": true,
+        "reason": "CI server for building, testing and deploying"
+      },
+      "Web":
+      {
+        "show": false,
+        "reason": ""
       }
+    }
     },
     {
       "stub": "fit_on_a_floppy",
@@ -61,7 +90,40 @@
           "colorPrimary": "#FFFFFF"
         }
       ]
+      },
+      "technologies":
+    {
+      "Python":
+      {
+        "show": true,
+        "reason": "Serverless"
+      },
+      "JavaScript":
+      {
+        "show": false,
+        "reason": ""
+      },
+      "AWS Lambda":
+      {
+        "show": true,
+        "reason": "Serverless hosting"
+      },
+      "AWS S3":
+      {
+        "show": true,
+        "reason": "Static web hosting"
+      },
+      "AWS CodePipelines":
+      {
+        "show": true,
+        "reason": "CI server for building, testing and deploying"
+      },
+      "Web":
+      {
+        "show": false,
+        "reason": ""
       }
+    }
     },
   {
     "stub": "commit_competition",
