@@ -6,57 +6,50 @@
       "description": "A website for getting size of a website and letting you know how many floppies it will fit on.",
       "purpose": "Built to increase website performance by decreasing page size.",
       "profiles": [
-      {
-        "network": "Website",
-        "username": "",
-        "url": "https://www.emojimailer.com/"
-      },
-      {
-        "network": "Blog",
-        "username": "",
-        "url": "https://www.brendonbody.com/2019/11/22/EmojiMailer/"
-      }],
-      "screenshots":
-      {
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://www.emojimailer.com/"
+        },
+        {
+          "network": "Blog",
+          "username": "",
+          "url": "https://www.brendonbody.com/2019/11/22/EmojiMailer/"
+        }
+      ],
+      "screenshots": {
         "mobile": [],
         "tablet": [],
         "desktop": [
-        {
-          "url": "https://raw.githubusercontent.com/bbody/bbody.github.io/master/_posts/images/2019-11-22-EmojiMailer/letter.jpg",
-          "description": "Postcard",
-          "colorPrimary": "#FFFFFF"
+          {
+            "url": "https://raw.githubusercontent.com/bbody/bbody.github.io/master/_posts/images/2019-11-22-EmojiMailer/letter.jpg",
+            "description": "Postcard",
+            "colorPrimary": "#FFFFFF"
+          }
+        ]
+      },
+      "technologies": {
+        "React": {
+          "show": true,
+          "reason": "Frontend framework"
+        },
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "Ruby on Rails": {
+          "show": true,
+          "reason": ""
+        },
+        "Circle CI": {
+          "show": true,
+          "reason": "CI server for building, testing and deploying"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
         }
-      ]
-      },
-
-    "technologies":
-    {
-      "React":
-      {
-        "show": true,
-        "reason": "Frontend framework"
-      },
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
-      },
-      "Ruby on Rails":
-      {
-        "show": true,
-        "reason": ""
-      },
-      "Circle CI":
-      {
-        "show": true,
-        "reason": "CI server for building, testing and deploying"
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
       }
-    }
     },
     {
       "stub": "fit_on_a_floppy",
@@ -64,463 +57,421 @@
       "description": "A website for getting size of a website and letting you know how many floppies it will fit on.",
       "purpose": "Built to increase website performance by decreasing page size.",
       "profiles": [
-      {
-        "network": "Website",
-        "username": "",
-        "url": "https://fitonafloppy.website/"
-      },
-      {
-        "network": "Github",
-        "username": "",
-        "url": "https://github.com/bbody/fit-on-a-floppy"
-      },
-      {
-        "network": "Blog",
-        "username": "",
-        "url": "https://www.brendonbody.com/2019/11/13/fit-on-a-floppy/"
-      }],
-      "screenshots":
-      {
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://fitonafloppy.website/"
+        },
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/fit-on-a-floppy"
+        },
+        {
+          "network": "Blog",
+          "username": "",
+          "url": "https://www.brendonbody.com/2019/11/13/fit-on-a-floppy/"
+        }
+      ],
+      "screenshots": {
         "mobile": [],
         "tablet": [],
         "desktop": [
-        {
-          "url": "https://raw.githubusercontent.com/bbody/fit-on-a-floppy/master/demo.gif",
-          "description": "Animation",
-          "colorPrimary": "#FFFFFF"
+          {
+            "url": "https://raw.githubusercontent.com/bbody/fit-on-a-floppy/master/demo.gif",
+            "description": "Animation",
+            "colorPrimary": "#FFFFFF"
+          }
+        ]
+      },
+      "technologies": {
+        "Python": {
+          "show": true,
+          "reason": "Serverless"
+        },
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "AWS Lambda": {
+          "show": true,
+          "reason": "Serverless hosting"
+        },
+        "AWS S3": {
+          "show": true,
+          "reason": "Static web hosting"
+        },
+        "AWS CodePipelines": {
+          "show": true,
+          "reason": "CI server for building, testing and deploying"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
         }
-      ]
-      },
-      "technologies":
+      }
+    },
     {
-      "Python":
-      {
-        "show": true,
-        "reason": "Serverless"
+      "stub": "commit_competition",
+      "title": "Commit Comp",
+      "description": "App to track Github commit competions between peers.",
+      "purpose": "Built to created an automated dashboard for competitions between my friends .",
+      "profiles": [
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://commit-comp.bbody.io/"
+        },
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/commit-comp"
+        },
+        {
+          "network": "Blog",
+          "username": "",
+          "url": "https://www.brendonbody.com/2019/04/28/commit-competition/"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://raw.githubusercontent.com/bbody/commit-comp/master/screenshot.png",
+            "description": "Dashboard",
+            "colorPrimary": "#FAFAFA"
+          }
+        ]
       },
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
+      "technologies": {
+        "VueJS": {
+          "show": true,
+          "reason": "Frontend framework"
+        },
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "TypeScript": {
+          "show": true,
+          "reason": "Used for type safe JavaScript code"
+        },
+        "CypressIO": {
+          "show": true,
+          "reason": "Used for both UI testing"
+        },
+        "Jest": {
+          "show": true,
+          "reason": "Used for both unit testing"
+        },
+        "Travis": {
+          "show": true,
+          "reason": "CI server for building, testing and deploying"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
+        }
+      }
+    },
+    {
+      "stub": "cmd_resume",
+      "title": "CMD Resume",
+      "description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM. For more information read the blog post.",
+      "purpose": "Built as an alternative way to display my resume.",
+      "profiles": [
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://cmd-resume.bbody.io/"
+        },
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/CMD-Resume"
+        },
+        {
+          "network": "Blog",
+          "username": "",
+          "url": "https://www.brendonbody.com/2019/01/07/cmd-resume/"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
+            "description": "Mock data user",
+            "colorPrimary": "black"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
+            "description": "Demonstration",
+            "colorPrimary": "black"
+          }
+        ]
       },
-      "AWS Lambda":
-      {
-        "show": true,
-        "reason": "Serverless hosting"
+      "technologies": {
+        "jQuery": {
+          "show": true,
+          "reason": "Used as is a dependency for jQuery Terminal"
+        },
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "Gulp": {
+          "show": true,
+          "reason": "JavaScript build tool"
+        },
+        "Jasmine": {
+          "show": true,
+          "reason": "Used for both Unit and UI testing"
+        },
+        "Karma": {
+          "show": true,
+          "reason": "Used for setting up the Unit Testing environment"
+        },
+        "WebdriverIO": {
+          "show": true,
+          "reason": "Used for running UI testing across browsers"
+        },
+        "Travis": {
+          "show": true,
+          "reason": "CI server for building, testing and deploying"
+        },
+        "wdio-visual-regression": {
+          "show": true,
+          "reason": "Used for testing whether any changes affect the look during UI testing"
+        },
+        "JSON Resume": {
+          "show": true,
+          "reason": "Used as the specification for how the resume is formatted"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
+        }
+      }
+    },
+    {
+      "stub": "multiline_js_converter",
+      "title": "Multiline Javascript Converter",
+      "description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6. Fully automated CI with Travis running linting and testing. Deploys to Github Pages.",
+      "profiles": [
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://jsstringconverter.bbody.io/"
+        },
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/MultilineJavaScriptConverter"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/input.png",
+            "description": "Input",
+            "colorPrimary": "white"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/output.png",
+            "description": "Output",
+            "colorPrimary": "white"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/demo.gif",
+            "description": "Demonstration",
+            "colorPrimary": "white"
+          }
+        ]
       },
-      "AWS S3":
-      {
-        "show": true,
-        "reason": "Static web hosting"
+      "technologies": {
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "ECMA6": {
+          "show": true,
+          "reason": "Written in ES6 to take advantage of the latest JavaScript versions"
+        },
+        "Babel": {
+          "show": true,
+          "reason": "To transpile code back to ES5 for maximum compatibility"
+        },
+        "Browserify": {
+          "show": true,
+          "reason": "Used to abstract logic from DOM interaction code"
+        },
+        "Mocha/Chai": {
+          "show": true,
+          "reason": "Fully unit tested code with 100% coverage"
+        },
+        "Skeleton": {
+          "show": true,
+          "reason": "Very small and minimal CSS library that fits this requirement well"
+        },
+        "ClipboardJS": {
+          "show": true,
+          "reason": "To allow outputted result to be added to Clipboard easily"
+        },
+        "Travis": {
+          "show": false,
+          "reason": "Builds, tests and deploys to Github Pages"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
+        }
+      }
+    },
+    {
+      "stub": "seamcore",
+      "title": "Seamcore Drillhole Visualizer",
+      "description": "3D visualizing tool for raw drill data classified into coal deposits. Built for a hackathon.",
+      "profiles": [
+        {
+          "network": "Website",
+          "username": "",
+          "url": "https://seamcore.bbody.io/"
+        },
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/SeamCore"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png",
+            "description": "Screenshot",
+            "colorPrimary": "#262626"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/demo.gif",
+            "description": "Demonstration",
+            "colorPrimary": "#262626"
+          }
+        ]
       },
-      "AWS CodePipelines":
-      {
-        "show": true,
-        "reason": "CI server for building, testing and deploying"
+      "technologies": {
+        "JavaScript": {
+          "show": false,
+          "reason": ""
+        },
+        "ThreeJS": {
+          "show": true,
+          "reason": "For showing 3D visualization of coal"
+        },
+        "Travis": {
+          "show": true,
+          "reason": "For building and deploying to Github Pages"
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
+        }
+      }
+    },
+    {
+      "stub": "coding_comps",
+      "title": "Coding Comps",
+      "description": "Directory for competitive coding competitions with tips and resources",
+      "profiles": [
+        {
+          "network": "Website",
+          "username": "",
+          "url": "http://www.codingcomps.com/"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/home.png",
+            "description": "Home Page"
+          },
+          {
+            "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/about.png",
+            "description": "About"
+          },
+          {
+            "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/contests.png",
+            "description": "Contests"
+          },
+          {
+            "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog-post.png",
+            "description": "Blog Post"
+          },
+          {
+            "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog.png",
+            "description": "Blog"
+          }
+        ]
       },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
+      "technologies": {
+        "Ruby on Rails": {
+          "show": true,
+          "reason": ""
+        },
+        "Web": {
+          "show": false,
+          "reason": ""
+        }
+      }
+    },
+    {
+      "stub": "wlcmd",
+      "title": "WLCMD",
+      "description": "Windows/*nix Commandline Dictionary for interoperability.",
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "",
+          "url": "https://github.com/bbody/wlcmd"
+        }
+      ],
+      "screenshots": {
+        "mobile": [],
+        "tablet": [],
+        "desktop": [
+          {
+            "url": "https://raw.githubusercontent.com/bbody/wlcmd/master/screenshot.png",
+            "description": "Screenshot",
+            "colorPrimary": "black"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bbody/wlcmd/master/demo.gif",
+            "description": "Demonstration",
+            "colorPrimary": "black"
+          }
+        ]
+      },
+      "technologies": {
+        "C": {
+          "show": true,
+          "reason": "C89 with pedantic flags to reduce bugs"
+        },
+        "Travis": {
+          "show": true,
+          "reason": "Compiles across Windows 10, MacOS and Ubuntu Linux and deploys to Github Releases"
+        },
+        "Desktop": {
+          "show": false,
+          "reason": ""
+        }
       }
     }
-    },
-  {
-    "stub": "commit_competition",
-    "title": "Commit Comp",
-    "description": "App to track Github commit competions between peers.",
-    "purpose": "Built to created an automated dashboard for competitions between my friends .",
-    "profiles": [
-    {
-      "network": "Website",
-      "username": "",
-      "url": "https://commit-comp.bbody.io/"
-    },
-    {
-      "network": "Github",
-      "username": "",
-      "url": "https://github.com/bbody/commit-comp"
-    },
-    {
-      "network": "Blog",
-      "username": "",
-      "url": "https://www.brendonbody.com/2019/04/28/commit-competition/"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://raw.githubusercontent.com/bbody/commit-comp/master/screenshot.png",
-        "description": "Dashboard",
-        "colorPrimary": "#FAFAFA"
-      }
-    ]
-    },
-    "technologies":
-    {
-      "VueJS":
-      {
-        "show": true,
-        "reason": "Frontend framework"
-      },
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
-      },
-      "TypeScript":
-      {
-        "show": true,
-        "reason": "Used for type safe JavaScript code"
-      },
-      "CypressIO":
-      {
-        "show": true,
-        "reason": "Used for both UI testing"
-      },
-      "Jest":
-      {
-        "show": true,
-        "reason": "Used for both unit testing"
-      },
-      "Travis":
-      {
-        "show": true,
-        "reason": "CI server for building, testing and deploying"
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  },
-  {
-    "stub": "cmd_resume",
-    "title": "CMD Resume",
-    "description": "Web-based command line resume using the JSON Resume specification. Built using jQuery and jQuery terminal with fully automated build and deploy using Travis as CI. Fully linted, unit, UI and visual regression tested across representational set of browsers. Deployed to Github Release, Github Pages and NPM. For more information read the blog post.",
-    "purpose": "Built as an alternative way to display my resume.",
-    "profiles": [
-    {
-      "network": "Website",
-      "username": "",
-      "url": "https://cmd-resume.bbody.io/"
-    },
-    {
-      "network": "Github",
-      "username": "",
-      "url": "https://github.com/bbody/CMD-Resume"
-    },
-    {
-      "network": "Blog",
-      "username": "",
-      "url": "https://www.brendonbody.com/2019/01/07/cmd-resume/"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://s3-ap-southeast-2.amazonaws.com/bbody-images/github/cmd-resume/cmd-resume.png",
-        "description": "Mock data user",
-        "colorPrimary": "black"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/bbody/CMD-Resume/master/docs/images/output.gif",
-        "description": "Demonstration",
-        "colorPrimary": "black"
-      }]
-    },
-    "technologies":
-    {
-      "jQuery":
-      {
-        "show": true,
-        "reason": "Used as is a dependency for jQuery Terminal"
-      },
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
-      },
-      "Gulp":
-      {
-        "show": true,
-        "reason": "JavaScript build tool"
-      },
-      "Jasmine":
-      {
-        "show": true,
-        "reason": "Used for both Unit and UI testing"
-      },
-      "Karma":
-      {
-        "show": true,
-        "reason": "Used for setting up the Unit Testing environment"
-      },
-      "WebdriverIO":
-      {
-        "show": true,
-        "reason": "Used for running UI testing across browsers"
-      },
-      "Travis":
-      {
-        "show": true,
-        "reason": "CI server for building, testing and deploying"
-      },
-      "wdio-visual-regression":
-      {
-        "show": true,
-        "reason": "Used for testing whether any changes affect the look during UI testing"
-      },
-      "JSON Resume":
-      {
-        "show": true,
-        "reason": "Used as the specification for how the resume is formatted"
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  },
-  {
-    "stub": "multiline_js_converter",
-    "title": "Multiline Javascript Converter",
-    "description": "Converts multiline text into a JavaScript multiline string. This includes both concatenated string in ECMA5 and the new template literal in ECMA6. Fully automated CI with Travis running linting and testing. Deploys to Github Pages.",
-    "profiles": [
-    {
-      "network": "Website",
-      "username": "",
-      "url": "https://jsstringconverter.bbody.io/"
-    },
-    {
-      "network": "Github",
-      "username": "",
-      "url": "https://github.com/bbody/MultilineJavaScriptConverter"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/input.png",
-        "description": "Input",
-        "colorPrimary": "white"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/output.png",
-        "description": "Output",
-        "colorPrimary": "white"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/bbody/MultilineJavaScriptConverter/master/screenshots/demo.gif",
-        "description": "Demonstration",
-        "colorPrimary": "white"
-      }]
-    },
-    "technologies":
-    {
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
-      },
-      "ECMA6":
-      {
-        "show": true,
-        "reason": "Written in ES6 to take advantage of the latest JavaScript versions"
-      },
-      "Babel":
-      {
-        "show": true,
-        "reason": "To transpile code back to ES5 for maximum compatibility"
-      },
-      "Browserify":
-      {
-        "show": true,
-        "reason": "Used to abstract logic from DOM interaction code"
-      },
-      "Mocha/Chai":
-      {
-        "show": true,
-        "reason": "Fully unit tested code with 100% coverage"
-      },
-      "Skeleton":
-      {
-        "show": true,
-        "reason": "Very small and minimal CSS library that fits this requirement well"
-      },
-      "ClipboardJS":
-      {
-        "show": true,
-        "reason": "To allow outputted result to be added to Clipboard easily"
-      },
-      "Travis":
-      {
-        "show": false,
-        "reason": "Builds, tests and deploys to Github Pages"
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  },
-  {
-    "stub": "seamcore",
-    "title": "Seamcore Drillhole Visualizer",
-    "description": "3D visualizing tool for raw drill data classified into coal deposits. Built for a hackathon.",
-    "profiles": [
-    {
-      "network": "Website",
-      "username": "",
-      "url": "https://seamcore.bbody.io/"
-    },
-    {
-      "network": "Github",
-      "username": "",
-      "url": "https://github.com/bbody/SeamCore"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png",
-        "description": "Screenshot",
-        "colorPrimary": "#262626"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/bbody/SeamCore/master/images/demo.gif",
-        "description": "Demonstration",
-        "colorPrimary": "#262626"
-      }]
-    },
-    "technologies":
-    {
-      "JavaScript":
-      {
-        "show": false,
-        "reason": ""
-      },
-      "ThreeJS":
-      {
-        "show": true,
-        "reason": "For showing 3D visualization of coal"
-      },
-      "Travis":
-      {
-        "show": true,
-        "reason": "For building and deploying to Github Pages"
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  },
-  {
-    "stub": "coding_comps",
-    "title": "Coding Comps",
-    "description": "Directory for competitive coding competitions with tips and resources",
-    "profiles": [
-    {
-      "network": "Website",
-      "username": "",
-      "url": "http://www.codingcomps.com/"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/home.png",
-        "description": "Home Page"
-      },
-      {
-        "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/about.png",
-        "description": "About"
-      },
-      {
-        "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/contests.png",
-        "description": "Contests"
-      },
-      {
-        "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog-post.png",
-        "description": "Blog Post"
-      },
-      {
-        "url": "https://s3-us-west-1.amazonaws.com/dormsoft/portfolio/codingcomps/blog.png",
-        "description": "Blog"
-      }]
-    },
-    "technologies":
-    {
-      "Ruby on Rails":
-      {
-        "show": true,
-        "reason": ""
-      },
-      "Web":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  },
-  {
-    "stub": "wlcmd",
-    "title": "WLCMD",
-    "description": "Windows/*nix Commandline Dictionary for interoperability.",
-    "profiles": [
-    {
-      "network": "Github",
-      "username": "",
-      "url": "https://github.com/bbody/wlcmd"
-    }],
-    "screenshots":
-    {
-      "mobile": [],
-      "tablet": [],
-      "desktop": [
-      {
-        "url": "https://raw.githubusercontent.com/bbody/wlcmd/master/screenshot.png",
-        "description": "Screenshot",
-        "colorPrimary": "black"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/bbody/wlcmd/master/demo.gif",
-        "description": "Demonstration",
-        "colorPrimary": "black"
-      }]
-    },
-    "technologies":
-    {
-      "C":
-      {
-        "show": true,
-        "reason": "C89 with pedantic flags to reduce bugs"
-      },
-      "Travis":
-      {
-        "show": true,
-        "reason": "Compiles across Windows 10, MacOS and Ubuntu Linux and deploys to Github Releases"
-      },
-      "Desktop":
-      {
-        "show": false,
-        "reason": ""
-      }
-    }
-  }]
+  ]
 }
